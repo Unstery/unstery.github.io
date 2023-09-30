@@ -2,9 +2,9 @@
 import Layout from '../layouts/layout.astro';
 import { PortfolioPage } from '../components//portfolio.page';
 
-import i18n, { i18nInit } from '../../public/translations/i18n';
-import en from '../../public/translations/en.json';
-import fr from '../../public/translations/fr.json'
+import i18n, { i18nInit } from '../translations/i18n';
+import en from '../translations/en.json';
+import fr from '../translations/fr.json';
 
 const resources = {
   en: {
@@ -19,5 +19,5 @@ i18nInit({ resources });
 ---
 
 <Layout title={i18n.t('title')}>
-  <PortfolioPage />
+  <PortfolioPage client:load/>
 </Layout>

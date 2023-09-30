@@ -37,12 +37,12 @@
         "wijin": {
             "title": "Flutter Web Developer",
             "company": "Wijin",
-            "Location": "Cesson-Sévigné, Brittany, France"
+            "location": "Cesson-Sévigné, Brittany, France"
         },
         "flyxCloud": {
             "title": "React Web Developer",
             "company": "FLYX Cloud",
-            "Location": "Oudergem, Brussels Region, Belgium",
+            "location": "Oudergem, Brussels Region, Belgium",
             "description": "The aim of my internship with Flyx Cloud was to develop a frontend solution for a white-label order management web application for retail companies. At the end of my internship, the proposed product presents the overall flow of an order management system, from the display of the store menu to the online payment of the basket."
         }
     }

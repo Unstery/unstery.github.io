@@ -1,11 +1,23 @@
-import { useTranslation } from 'react-i18next';
+import { Navbar } from './navbar/navbar.component';
 
-export const PortfolioPage = () => {
-  const { t } = useTranslation();
+import { i18nInit } from '../translations/i18n';
+import en from '../translations/en.json';
+import fr from '../translations/fr.json';
 
-  return (
-    <div>
-      <p>{t('title')}</p>
-    </div>
-  );
+const resources = {
+  en: {
+    translation: en
+  },
+  fr: {
+    translation: fr
+  }
 };
+
+i18nInit({ resources });
+
+export const PortfolioPage = () => (
+  <div>
+    <Navbar />
+  </div>
+
+);

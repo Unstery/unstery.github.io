@@ -2,7 +2,8 @@ import i18n, { type InitOptions } from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 export const i18nInit = (resources: InitOptions) => i18n.use(initReactI18next).init({
-  lng: 'en-GB',
+  lng: 'en',
+  fallbackLng: 'en',
   interpolation: {
     escapeValue: false,
     format: (value, format) => {
