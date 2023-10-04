@@ -1,15 +1,16 @@
-import { useTranslation } from 'react-i18next';
-
 import { LanguageDropdown } from './language-dropdown.component';
+import { usePortfolio } from '../../modules/portfolio';
 
 export const Navbar = () => {
-  const { t } = useTranslation();
+  const { findCategories } = usePortfolio();
+
+  const categories = findCategories();
 
   return (
     <div className="flex flex-row justify-around px-[20px] py-[25px] bg-background-500">
-      <p>{t('category.education')}</p>
-      <p>{t('category.experience')}</p>
-      <p>{t('category.projects')}</p>
+      {categories.map((category) => (
+        <p key={category.id}>{category.title}</p>
+      ))}
       <LanguageDropdown />
     </div>
   );
