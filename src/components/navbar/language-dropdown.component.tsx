@@ -17,8 +17,8 @@ export const LanguageDropdown = () => {
   };
 
   return (
-    <div className="bg-background-700 p-[10px] rounded-full">
-      <select onChange={handleLanguageChange} value={i18n.language} className="bg-background-700">
+    <div className="bg-background-300 dark:bg-background-600 p-[10px] rounded-full">
+      <select onChange={handleLanguageChange} value={i18n.language} className="bg-background-300 dark:bg-background-600 text-text-700 dark:text-text-200">
         {
             languages.map((langCode) => (
               <option key={langCode} value={langCode}>
