@@ -2,65 +2,76 @@
     "id": 0,
     "title": "Portfolio",
     "profile": {
-        "title": "IT worker internship",
-        "status": "Second-year engineering student",
-        "description": "I am a description"
+        "firstName": "Bastien",
+        "lastName": "Faisant",
+        "title": "Stage en informatique",
+        "status": "Élève ingénieur en troisième année",
+        "description": "Étudiant en deuxième année d'école d'Ingénieurs en informatique à l'ESIR, à Rennes, je suis à la recherche, dans le cadre de ma formation, d'un stage, à l'étranger, dans le domaine de l'informatique, d'une durée de 12 à 16 semaines à réaliser entre le 29 mai 2023 et le 29 septembre 2023."
     },
     "categories": [
         {
             "id": 1,
-            "title": "Éducation",
+            "type": "Education",
+            "title": "Formation",
             "entities": [
                 {
-                    "school": "Jean Guéhenno high school, Fougères",
-                    "degree": "Bachelor's Degrees (BSC)",
-                    "speciality": "Engineering Sciences",
-                    "startDate": "2016",
-                    "endDate": "2019"
+                    "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
+                    "degree": "École d'Ingénieurs",
+                    "speciality": "Informatique",
+                    "startDate": "2021",
+                    "endDate": "2024"
                 },
                 {
-                    "school": "ESIR - Rennes Graduate School of Engineering",
-                    "degree": "Two-years of preparing university cycle (CUPGE)",
-                    "speciality": "Information technology",
+                    "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
+                    "degree": "Cycle Universitaire Préparatoire aux Grandes Écoles (CUPGE)",
+                    "speciality": "Technologie de l'information",
                     "startDate": "2019",
                     "endDate": "2021"
                 },
                 {
-                    "school": "ESIR - Rennes Graduate School of Engineering",
-                    "degree": "Engineering degree",
-                    "speciality": "Computer science",
-                    "startDate": "2021",
-                    "endDate": "2024"
+                    "school": "Lycée Jean Guéhenno, Fougères",
+                    "degree": "Baccalauréat Scientifique (BAS S)",
+                    "speciality": "Sciences de l'ingénieur",
+                    "startDate": "2016",
+                    "endDate": "2019"
                 }
             ]  
         },
         {
             "id": 2,
+            "type": "Experience",
             "title": "Expérience",
             "entities": [
                 {
-                    "title": "Flutter Web Developer",
-                    "company": "Wijin",
-                    "location": "Cesson-Sévigné, Brittany, France",
-                    "description": ""
+                    "title": "Développeur web React",
+                    "company": "FLYX Cloud",
+                    "location": "Auderghem, Bruxelles-Capitale, Belgique",
+                    "description": "Ce stage au sein de Flyx Cloud avait pour objectif de développer une solution frontend d'une application web de gestion des commandes en marque blanche destinée aux entreprises de vente au détail.\nA la fin de mon stage, le produit proposé présente le flux global d'un système de gestion de commande, de l'affichage du menu du magasin jusqu'au paiement en ligne du panier."
                 },
                 {
-                    "title": "React Web Developer",
-                    "company": "FLYX Cloud",
-                    "location": "Oudergem, Brussels Region, Belgium",
-                    "description": "The aim of my internship with Flyx Cloud was to develop a frontend solution for a white-label order management web application for retail companies. At the end of my internship, the proposed product presents the overall flow of an order management system, from the display of the store menu to the online payment of the basket."
+                    "title": "Développeur web Flutter",
+                    "company": "Wijin",
+                    "location": "Cesson-Sévigné, Bretagne, France",
+                    "description": ""
                 }
             ]
         },
         {
             "id": 3,
+            "type": "Project",
             "title": "Projets",
             "entities": [
                 {
-                    "title": "Project 1",
-                    "date": "0",
-                    "duration": "0 second",
-                    "description": "a"
+                    "title": "Microservices dockerisés d'un gestionnaire d'association",
+                    "date": "2022/2023",
+                    "duration": "4 mois",
+                    "description": "Architecture utilisant NestJS, MySQL, Angular, Quarkus, RabbitMQ et Nginx."
+                },
+                {
+                    "title": "Compilateur pour un nouveau langage de programmation While en C++",
+                    "date": "2022/2023",
+                    "duration": "3 mois",
+                    "description": "Compilateur utilisant ANTLR et Java pour créer un lexer et un parser de grammaire, un code 3 adresses et une bibliothèque d'exécution pour C++."
                 }
             ]
         }

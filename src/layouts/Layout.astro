@@ -7,7 +7,7 @@ const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html class="bg-background-700 font-textFont text-text-200">
+<html>
   <head>
     <meta charset='UTF-8' />
     <meta name='description' content='Astro description' />
@@ -16,7 +16,28 @@ const { title } = Astro.props;
     <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
+  <body class="bg-background-200 dark:bg-background-700 font-textFont text-text-700 dark:text-text-200">
     <slot />
   </body>
 </html>
+<script is:inline>
+  const theme = (() => {
+    console.log('script')
+    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+      return localStorage.getItem("theme");
+    }
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    }
+    return "light";
+  })();
+
+  if (theme === "light") {
+    console.log('remove dark cls')
+    document.documentElement.classList.remove("dark");
+  } else {
+    console.log('add dark cls')
+    document.documentElement.classList.add("dark");
+  }
+  window.localStorage.setItem("theme", theme);
+</script>

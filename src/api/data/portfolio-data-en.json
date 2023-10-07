@@ -2,21 +2,24 @@
     "id": 0,
     "title": "Portfolio",
     "profile": {
+        "firstName": "Bastien",
+        "lastName": "Faisant",
         "title": "IT worker internship",
-        "status": "Second-year engineering student",
-        "description": "I am a description"
+        "status": "Third-year engineering student",
+        "description": "Student in the second year of engineering school in computer science at ESIR, in Rennes, I am looking for a 12 to 16 weeks internship abroad in the field of computer science, to be carried out between May 29, 2023 and September 29, 2023, as part of my training."
     },
     "categories": [
         {
             "id": 1,
+            "type": "Education",
             "title": "Education",
             "entities": [
                 {
-                    "school": "Jean Guéhenno high school, Fougères",
-                    "degree": "Bachelor's Degrees (BSC)",
-                    "speciality": "Engineering Sciences",
-                    "startDate": "2016",
-                    "endDate": "2019"
+                    "school": "ESIR - Rennes Graduate School of Engineering",
+                    "degree": "Engineering degree",
+                    "speciality": "Computer science",
+                    "startDate": "2021",
+                    "endDate": "2024"
                 },
                 {
                     "school": "ESIR - Rennes Graduate School of Engineering",
@@ -26,41 +29,49 @@
                     "endDate": "2021"
                 },
                 {
-                    "school": "ESIR - Rennes Graduate School of Engineering",
-                    "degree": "Engineering degree",
-                    "speciality": "Computer science",
-                    "startDate": "2021",
-                    "endDate": "2024"
+                    "school": "Jean Guéhenno high school, Fougères",
+                    "degree": "Bachelor's Degrees (BSC)",
+                    "speciality": "Engineering Sciences",
+                    "startDate": "2016",
+                    "endDate": "2019"
                 }
             ]  
         },
         {
             "id": 2,
+            "type": "Experience",
             "title": "Experience",
             "entities": [
+                {
+                    "title": "React Web Developer",
+                    "company": "FLYX Cloud",
+                    "location": "Oudergem, Brussels Region, Belgium",
+                    "description": "The aim of my internship with Flyx Cloud was to develop a frontend solution for a white-label order management web application for retail companies.\nAt the end of my internship, the proposed product presents the overall flow of an order management system, from the display of the store menu to the online payment of the basket."
+                },
                 {
                     "title": "Flutter Web Developer",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Brittany, France",
                     "description": ""
-                },
-                {
-                    "title": "React Web Developer",
-                    "company": "FLYX Cloud",
-                    "location": "Oudergem, Brussels Region, Belgium",
-                    "description": "The aim of my internship with Flyx Cloud was to develop a frontend solution for a white-label order management web application for retail companies. At the end of my internship, the proposed product presents the overall flow of an order management system, from the display of the store menu to the online payment of the basket."
                 }
             ]
         },
         {
             "id": 3,
+            "type": "Project",
             "title": "Projects",
             "entities": [
                 {
-                    "title": "Project 1",
-                    "date": "0",
-                    "duration": "0 second",
-                    "description": "a"
+                    "title": "Dockerized microservices of an association manager",
+                    "date": "2022/2023",
+                    "duration": "4 months",
+                    "description": "Architecture using NestJS, MySQL, Angular, Quarkus, RabbitMQ and Nginx."
+                },
+                {
+                    "title": "Development of a compiler for new programming language While in C++",
+                    "date": "2022/2023",
+                    "duration": "3 months",
+                    "description": "Compiler using ANTLR and Java to create a grammar lexer and parser, threeaddress code and runtime library for C++."
                 }
             ]
         }
