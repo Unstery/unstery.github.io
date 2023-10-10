@@ -18,22 +18,25 @@
                     "school": "ESIR - Rennes Graduate School of Engineering",
                     "degree": "Engineering degree",
                     "speciality": "Computer science",
-                    "startDate": "2021",
-                    "endDate": "2024"
+                    "startDate": "2021-09-01",
+                    "endDate": "2024-07-05",
+                    "image": "esir.png"
                 },
                 {
                     "school": "ESIR - Rennes Graduate School of Engineering",
                     "degree": "Two-years of preparing university cycle (CUPGE)",
                     "speciality": "Information technology",
-                    "startDate": "2019",
-                    "endDate": "2021"
+                    "startDate": "2019-09-01",
+                    "endDate": "2021-07-05",
+                    "image": "esir.png"
                 },
                 {
                     "school": "Jean Guéhenno high school, Fougères",
                     "degree": "Bachelor's Degrees (BSC)",
                     "speciality": "Engineering Sciences",
-                    "startDate": "2016",
-                    "endDate": "2019"
+                    "startDate": "2016-09-01",
+                    "endDate": "2019-07-05",
+                    "image": "jean_guehenno.jpg"
                 }
             ]  
         },
@@ -43,16 +46,28 @@
             "title": "Experience",
             "entities": [
                 {
-                    "title": "React Web Developer",
+                    "title": "React Web Developer (Internship)",
                     "company": "FLYX Cloud",
                     "location": "Oudergem, Brussels Region, Belgium",
-                    "description": "The aim of my internship with Flyx Cloud was to develop a frontend solution for a white-label order management web application for retail companies.\nAt the end of my internship, the proposed product presents the overall flow of an order management system, from the display of the store menu to the online payment of the basket."
+                    "startDate": "2023-06-05",
+                    "endDate": "2023-09-15",
+                    "description": "The aim of my internship with Flyx Cloud was to develop a frontend solution for a white-label order management web application for retail companies.\nAt the end of my internship, the proposed product presents the overall flow of an order management system, from the display of the store menu to the online payment of the basket.",
+                    "image": "flyx_cloud.jpg",
+                    "skills": [
+                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
+                    ]
                 },
                 {
-                    "title": "Flutter Web Developer",
+                    "title": "Flutter Web Developer (Internship)",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Brittany, France",
-                    "description": ""
+                    "startDate": "2022-06-06",
+                    "endDate": "2022-08-05",
+                    "description": "",
+                    "image": "wijin.jpg",
+                    "skills": [
+                        "TypeScript", "Node.js", "NestJS", "Dart", "MongoDB"
+                    ]
                 }
             ]
         },

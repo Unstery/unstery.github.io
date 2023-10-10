@@ -6,8 +6,8 @@ const colors: ColorType = {
   },
   background: {
     0: '#FFFFFF',
-    200: '#EFEFEF', // light-mode-bg
-    300: '#FEFEFE', // light-mode-bg
+    200: '#FEFEFE', // light-mode-bg
+    300: '#EFEFEF', // light-mode-bg
     600: '#1E293C', // dark-mode-bg
     700: '#1D232A', // dark-mode-bg
     900: '#000000'

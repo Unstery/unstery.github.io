@@ -22,8 +22,8 @@ export const ThemeSwitcher = () => {
   }, [theme]);
 
   return (
-    <button type="button" onClick={handleThemeChange} className="bg-background-300 dark:bg-background-600 p-[10px] rounded-full">
-      <FontAwesomeIcon icon={themeIcon} />
+    <button type="button" onClick={handleThemeChange} className="w-10 h-10 flex justify-center items-center bg-background-300 dark:bg-background-600 p-[10px] rounded-2xl">
+      <FontAwesomeIcon icon={themeIcon} className="w-4 h-4" />
     </button>
   );
 };

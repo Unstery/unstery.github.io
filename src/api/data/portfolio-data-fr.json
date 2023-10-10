@@ -18,22 +18,25 @@
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
                     "degree": "École d'Ingénieurs",
                     "speciality": "Informatique",
-                    "startDate": "2021",
-                    "endDate": "2024"
+                    "startDate": "2021-09-01",
+                    "endDate": "2024-07-05",
+                    "image": "esir.png"
                 },
                 {
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
                     "degree": "Cycle Universitaire Préparatoire aux Grandes Écoles (CUPGE)",
                     "speciality": "Technologie de l'information",
-                    "startDate": "2019",
-                    "endDate": "2021"
+                    "startDate": "2019-09-01",
+                    "endDate": "2021-07-05",
+                    "image": "esir.png"
                 },
                 {
                     "school": "Lycée Jean Guéhenno, Fougères",
                     "degree": "Baccalauréat Scientifique (BAS S)",
                     "speciality": "Sciences de l'ingénieur",
-                    "startDate": "2016",
-                    "endDate": "2019"
+                    "startDate": "2016-09-01",
+                    "endDate": "2019-07-05",
+                    "image": "jean_guehenno.jpg"
                 }
             ]  
         },
@@ -43,16 +46,28 @@
             "title": "Expérience",
             "entities": [
                 {
-                    "title": "Développeur web React",
+                    "title": "Développeur web React (Stage)",
                     "company": "FLYX Cloud",
                     "location": "Auderghem, Bruxelles-Capitale, Belgique",
-                    "description": "Ce stage au sein de Flyx Cloud avait pour objectif de développer une solution frontend d'une application web de gestion des commandes en marque blanche destinée aux entreprises de vente au détail.\nA la fin de mon stage, le produit proposé présente le flux global d'un système de gestion de commande, de l'affichage du menu du magasin jusqu'au paiement en ligne du panier."
+                    "startDate": "2023-06-05",
+                    "endDate": "2023-09-15",
+                    "description": "Ce stage au sein de Flyx Cloud avait pour objectif de développer une solution frontend d'une application web de gestion des commandes en marque blanche destinée aux entreprises de vente au détail.\nA la fin de mon stage, le produit proposé présente le flux global d'un système de gestion de commande, de l'affichage du menu du magasin jusqu'au paiement en ligne du panier.",
+                    "image": "flyx_cloud.jpg",
+                    "skills": [
+                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
+                    ]
                 },
                 {
-                    "title": "Développeur web Flutter",
+                    "title": "Développeur web Flutter (Stage)",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Bretagne, France",
-                    "description": ""
+                    "startDate": "2022-06-06",
+                    "endDate": "2022-08-05",
+                    "description": "",
+                    "image": "wijin.jpg",
+                    "skills": [
+                        "TypeScript", "Node.js", "NestJS", "Dart", "MongoDB"
+                    ]
                 }
             ]
         },

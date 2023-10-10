@@ -22,7 +22,6 @@ const { title } = Astro.props;
 </html>
 <script is:inline>
   const theme = (() => {
-    console.log('script')
     if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
       return localStorage.getItem("theme");
     }
@@ -33,10 +32,8 @@ const { title } = Astro.props;
   })();
 
   if (theme === "light") {
-    console.log('remove dark cls')
     document.documentElement.classList.remove("dark");
   } else {
-    console.log('add dark cls')
     document.documentElement.classList.add("dark");
   }
   window.localStorage.setItem("theme", theme);

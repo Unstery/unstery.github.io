@@ -17,7 +17,7 @@ export const LanguageDropdown = () => {
   };
 
   return (
-    <div className="bg-background-300 dark:bg-background-600 p-[10px] rounded-full">
+    <div className="h-10 flex justify-center items-center bg-background-300 dark:bg-background-600 p-[10px] rounded-2xl">
       <select onChange={handleLanguageChange} value={i18n.language} className="bg-background-300 dark:bg-background-600 text-text-700 dark:text-text-200">
         {
             languages.map((langCode) => (
