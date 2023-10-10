@@ -4,4 +4,5 @@ export interface EducationEntity {
   speciality: string,
   startDate: string,
   endDate: string,
+  image: string,
 }
