@@ -11,9 +11,10 @@ export const Education = ({ categoriesRef }: EducationProps) => {
   const education = findEducation();
 
   return (
-    <div
+    <section
       className="w-full"
       ref={(element) => categoriesRef.current.push(element!)}
+      id={education.title}
     >
       <h2 className="text-primary-200 text-2xl font-bold">{education.title}</h2>
       <div className="flex flex-col gap-4">
@@ -21,7 +22,7 @@ export const Education = ({ categoriesRef }: EducationProps) => {
           <EducationItem key={entity.degree} entity={entity} />
         ))}
       </div>
-    </div>
+    </section>
 
   );
 };

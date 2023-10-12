@@ -11,9 +11,10 @@ export const Experience = ({ categoriesRef }: ExperienceProps) => {
   const experience = findExperience();
 
   return (
-    <div
+    <section
       className="w-full"
       ref={(element) => categoriesRef.current.push(element!)}
+      id={experience.title}
     >
       <h2 className="text-primary-200 text-2xl font-bold">{experience.title}</h2>
       <div className="flex flex-col gap-4">
@@ -21,7 +22,7 @@ export const Experience = ({ categoriesRef }: ExperienceProps) => {
           <ExperienceItem key={entity.company} entity={entity} />
         ))}
       </div>
-    </div>
+    </section>
 
   );
 };

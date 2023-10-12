@@ -14,6 +14,7 @@ export const Projects = ({ categoriesRef }: ProjectsProps) => {
     <div
       className="w-full"
       ref={(element) => categoriesRef.current.push(element!)}
+      id={projects.title}
     >
       <h2 className="text-primary-200 text-2xl font-bold">{projects.title}</h2>
       <div className="flex flex-col gap-4">

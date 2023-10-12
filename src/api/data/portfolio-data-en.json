@@ -1,44 +1,15 @@
 {
     "id": 0,
     "title": "Portfolio",
-    "profile": {
-        "firstName": "Bastien",
-        "lastName": "Faisant",
-        "title": "IT worker internship",
-        "status": "Third-year engineering student",
-        "description": "Student in the second year of engineering school in computer science at ESIR, in Rennes, I am looking for a 12 to 16 weeks internship abroad in the field of computer science, to be carried out between May 29, 2023 and September 29, 2023, as part of my training."
-    },
     "categories": [
         {
             "id": 1,
-            "type": "Education",
-            "title": "Education",
-            "entities": [
-                {
-                    "school": "ESIR - Rennes Graduate School of Engineering",
-                    "degree": "Engineering degree",
-                    "speciality": "Computer science",
-                    "startDate": "2021-09-01",
-                    "endDate": "2024-07-05",
-                    "image": "esir.png"
-                },
-                {
-                    "school": "ESIR - Rennes Graduate School of Engineering",
-                    "degree": "Two-years of preparing university cycle (CUPGE)",
-                    "speciality": "Information technology",
-                    "startDate": "2019-09-01",
-                    "endDate": "2021-07-05",
-                    "image": "esir.png"
-                },
-                {
-                    "school": "Jean Guéhenno high school, Fougères",
-                    "degree": "Bachelor's Degrees (BSC)",
-                    "speciality": "Engineering Sciences",
-                    "startDate": "2016-09-01",
-                    "endDate": "2019-07-05",
-                    "image": "jean_guehenno.jpg"
-                }
-            ]  
+            "type": "Bastien Faisant",
+            "firstName": "Bastien",
+            "lastName": "Faisant",
+            "title": "Bastien Faisant",
+            "status": "Third-year engineering student",
+            "description": "Student in the third year of computer engineering school at ESIR, inRennes, I am looking, as part of my training, for an end-of-yearinternship in the field of computer science, lasting 4 to 6 months to be carried out from March 4, 2024."
         },
         {
             "id": 2,
@@ -140,6 +111,37 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 4,
+            "type": "Education",
+            "title": "Education",
+            "entities": [
+                {
+                    "school": "ESIR - Rennes Graduate School of Engineering",
+                    "degree": "Engineering degree",
+                    "speciality": "Computer science",
+                    "startDate": "2021-09-01",
+                    "endDate": "2024-07-05",
+                    "image": "esir.png"
+                },
+                {
+                    "school": "ESIR - Rennes Graduate School of Engineering",
+                    "degree": "Two-years of preparing university cycle (CUPGE)",
+                    "speciality": "Information technology",
+                    "startDate": "2019-09-01",
+                    "endDate": "2021-07-05",
+                    "image": "esir.png"
+                },
+                {
+                    "school": "Jean Guéhenno high school, Fougères",
+                    "degree": "Bachelor's Degrees (BSC)",
+                    "speciality": "Engineering Sciences",
+                    "startDate": "2016-09-01",
+                    "endDate": "2019-07-05",
+                    "image": "jean_guehenno.jpg"
+                }
+            ]  
         }
     ]
 }

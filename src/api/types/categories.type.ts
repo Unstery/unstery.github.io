@@ -1,3 +1,8 @@
-import type { Education, Experience, Project } from '../models';
+import type {
+  Education,
+  Experience,
+  Profile,
+  Project
+} from '../models';
 
-export type CategoryType = Education | Experience | Project;
+export type CategoryType = Profile | Education | Experience | Project;

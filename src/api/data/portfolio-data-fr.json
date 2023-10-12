@@ -1,44 +1,15 @@
 {
     "id": 0,
     "title": "Portfolio",
-    "profile": {
-        "firstName": "Bastien",
-        "lastName": "Faisant",
-        "title": "Stage en informatique",
-        "status": "Élève ingénieur en troisième année",
-        "description": "Étudiant en deuxième année d'école d'Ingénieurs en informatique à l'ESIR, à Rennes, je suis à la recherche, dans le cadre de ma formation, d'un stage, à l'étranger, dans le domaine de l'informatique, d'une durée de 12 à 16 semaines à réaliser entre le 29 mai 2023 et le 29 septembre 2023."
-    },
     "categories": [
         {
             "id": 1,
-            "type": "Education",
-            "title": "Formation",
-            "entities": [
-                {
-                    "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
-                    "degree": "École d'Ingénieurs",
-                    "speciality": "Informatique",
-                    "startDate": "2021-09-01",
-                    "endDate": "2024-07-05",
-                    "image": "esir.png"
-                },
-                {
-                    "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
-                    "degree": "Cycle Universitaire Préparatoire aux Grandes Écoles (CUPGE)",
-                    "speciality": "Technologie de l'information",
-                    "startDate": "2019-09-01",
-                    "endDate": "2021-07-05",
-                    "image": "esir.png"
-                },
-                {
-                    "school": "Lycée Jean Guéhenno, Fougères",
-                    "degree": "Baccalauréat Scientifique (BAS S)",
-                    "speciality": "Sciences de l'ingénieur",
-                    "startDate": "2016-09-01",
-                    "endDate": "2019-07-05",
-                    "image": "jean_guehenno.jpg"
-                }
-            ]  
+            "type": "Bastien Faisant",
+            "firstName": "Bastien",
+            "lastName": "Faisant",
+            "title": "Bastien Faisant",
+            "status": "Élève ingénieur en troisième année",
+            "description": "Étudiant en troisième année d'école d'Ingénieurs en informatique àl'ESIR, à Rennes, je suis à la recherche, dans le cadre de ma formation,d'un stage de fin d'année d'étude, dans le domaine de l'informatique,d'une durée de 4 à 6 mois à réaliser à partir du 04 mars 2024."
         },
         {
             "id": 2,
@@ -140,6 +111,37 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 4,
+            "type": "Education",
+            "title": "Formation",
+            "entities": [
+                {
+                    "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
+                    "degree": "École d'Ingénieurs",
+                    "speciality": "Informatique",
+                    "startDate": "2021-09-01",
+                    "endDate": "2024-07-05",
+                    "image": "esir.png"
+                },
+                {
+                    "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
+                    "degree": "Cycle Universitaire Préparatoire aux Grandes Écoles (CUPGE)",
+                    "speciality": "Technologie de l'information",
+                    "startDate": "2019-09-01",
+                    "endDate": "2021-07-05",
+                    "image": "esir.png"
+                },
+                {
+                    "school": "Lycée Jean Guéhenno, Fougères",
+                    "degree": "Baccalauréat Scientifique (BAS S)",
+                    "speciality": "Sciences de l'ingénieur",
+                    "startDate": "2016-09-01",
+                    "endDate": "2019-07-05",
+                    "image": "jean_guehenno.jpg"
+                }
+            ]  
         }
     ]
 }
