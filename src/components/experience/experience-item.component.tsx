@@ -5,10 +5,28 @@ interface ExperienceItemProps {
   entity: ExperienceEntity
 }
 
-export const ExperienceItem = ({ entity }: ExperienceItemProps) => {
-  const { generateDate } = useDate();
+const getExperienceDate = (
+  startDateString: Date,
+  endDateString: Date,
+  formatDate: (date: Date, options: Intl.DateTimeFormatOptions) => string,
+) => {
+  const options: Intl.DateTimeFormatOptions = { month: 'long', year: 'numeric' };
+  const startDate = new Date(startDateString);
+  const endDate = new Date(endDateString);
+  const startFormattedDate = formatDate(startDate, options);
+  const endFormattedate = formatDate(endDate, options);
 
-  const date = generateDate(entity);
+  return `${startFormattedDate} / ${endFormattedate}`;
+};
+
+export const ExperienceItem = ({ entity }: ExperienceItemProps) => {
+  const { formatDate } = useDate();
+
+  const date = getExperienceDate(
+    entity.startDate,
+    entity.endDate,
+    formatDate,
+  );
 
   return (
     <div className="p-4 flex flex-col gap-4 rounded-2xl bg-background-300 dark:bg-background-600">

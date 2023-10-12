@@ -5,10 +5,28 @@ interface EducationItemProps {
   entity: EducationEntity
 }
 
-export const EducationItem = ({ entity }: EducationItemProps) => {
-  const { generateDate } = useDate();
+const getEducationDate = (
+  startDateString: Date,
+  endDateString: Date,
+  formatDate: (date: Date, options: Intl.DateTimeFormatOptions) => string,
+) => {
+  const options: Intl.DateTimeFormatOptions = { year: 'numeric' };
+  const startDate = new Date(startDateString);
+  const endDate = new Date(endDateString);
+  const startFormattedDate = formatDate(startDate, options);
+  const endFormattedate = formatDate(endDate, options);
 
-  const date = generateDate(entity);
+  return `${startFormattedDate}/${endFormattedate}`;
+};
+
+export const EducationItem = ({ entity }: EducationItemProps) => {
+  const { formatDate } = useDate();
+
+  const date = getEducationDate(
+    entity.startDate,
+    entity.endDate,
+    formatDate,
+  );
 
   return (
     <div className="p-4 flex flex-col gap-4 rounded-2xl bg-background-300 dark:bg-background-600">

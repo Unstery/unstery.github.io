@@ -77,16 +77,67 @@
             "title": "Projets",
             "entities": [
                 {
+                    "title": "Solution web de gestion des commandes sous marque blanche",
+                    "startDate": "2023-01-01",
+                    "endDate": "2023-01-01",
+                    "description": "Application web frontend en React avec le framework Next.js. Interaction avecle backend développé en .NET.",
+                    "skills": [
+                        "React", "Next.js"
+                    ]
+                },
+                {
+                    "title": "Évaluation des jeunes joueurs de football en data",
+                    "startDate": "2022-01-01",
+                    "endDate": "2023-01-01",
+                    "description": "Récupération des données via web scraping (BeautifulSoup et SeleniumWebDriver) et Pandas et Numpy pour le traitement.",
+                    "skills": [
+                        "Python", "BeautifulSoup", "Selenium WebDriver", "Pandas", "Numpy"
+                    ]
+                },
+                {
+                    "title": "Application de jeux mobile en pair-à-pair",
+                    "startDate": "2022-01-01",
+                    "endDate": "2023-01-01",
+                    "description": "Application Flutter pour des défis solo et multijoueur en Wi-Fi Peer-to-Peer.",
+                    "skills": [
+                        "Flutter", "Dart"
+                    ]
+                },
+                {
                     "title": "Microservices dockerisés d'un gestionnaire d'association",
-                    "date": "2022/2023",
-                    "duration": "4 mois",
-                    "description": "Architecture utilisant NestJS, MySQL, Angular, Quarkus, RabbitMQ et Nginx."
+                    "startDate": "2022-01-01",
+                    "endDate": "2023-01-01",
+                    "description": "Architecture utilisant NestJS, MySQL, Angular, Quarkus, RabbitMQ et Nginx.",
+                    "skills": [
+                        "NestJS", "MySQL", "Angular", "Quarkus", "RabbitMQ", "Nginx"
+                    ]
                 },
                 {
                     "title": "Compilateur pour un nouveau langage de programmation While en C++",
-                    "date": "2022/2023",
-                    "duration": "3 mois",
-                    "description": "Compilateur utilisant ANTLR et Java pour créer un lexer et un parser de grammaire, un code 3 adresses et une bibliothèque d'exécution pour C++."
+                    "startDate": "2022-01-01",
+                    "endDate": "2023-01-01",
+                    "description": "Compilateur utilisant ANTLR et Java pour créer un lexer et un parser de grammaire, un code 3 adresses et une bibliothèque d'exécution pour C++.",
+                    "skills": [
+                        "ANTLR", "Java", "C++"
+                    ]
+                },
+                {
+                    "title": "Application web de gestion des plannings de formation",
+                    "startDate": "2022-01-01",
+                    "endDate": "2022-01-01",
+                    "description": "Application web frontend en Flutter/Dart, API en NodeJS avec le frameworkNestJS et base de données hébergée sous MongoDB.",
+                    "skills": [
+                        "Flutter", "Dart", "NodeJS", "NestJS", "MongoDB"
+                    ]
+                },
+                {
+                    "title": "Application mobile de signalisation et de nettoyage de dépôts sauvages",
+                    "startDate": "2021-01-01",
+                    "endDate": "2021-01-01",
+                    "description": "Développement Android en Java/XML avec les outils Android Studio et VisualStudio Code. Hébergement de notre base de données sous Firebase.",
+                    "skills": [
+                        "Java", "XML", "Firebase"
+                    ]
                 }
             ]
         }
