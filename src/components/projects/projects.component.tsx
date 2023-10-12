@@ -12,7 +12,7 @@ export const Projects = ({ categoriesRef }: ProjectsProps) => {
 
   return (
     <div
-      className="w-full"
+      className="w-full flex flex-col gap-3"
       ref={(element) => categoriesRef.current.push(element!)}
       id={projects.title}
     >

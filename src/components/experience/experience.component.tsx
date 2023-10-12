@@ -12,7 +12,7 @@ export const Experience = ({ categoriesRef }: ExperienceProps) => {
 
   return (
     <section
-      className="w-full"
+      className="w-full flex flex-col gap-3"
       ref={(element) => categoriesRef.current.push(element!)}
       id={experience.title}
     >
