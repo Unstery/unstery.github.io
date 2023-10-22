@@ -2,13 +2,16 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
 import { usePortfolio } from '../../modules/portfolio';
-import CV_FR from '../../../public/cv/Bastien_Faisant_CV.pdf';
-import CV_EN from '../../../public/cv/Bastien_Faisant_english_CV.pdf';
+// import CV_FR from '../../../public/cv/Bastien_Faisant_CV.pdf';
+// import CV_EN from '../../../public/cv/Bastien_Faisant_english_CV.pdf';
 import { LanguagesEnum } from '../../enums/languages.enum';
 
 interface ProfileProps {
   categoriesRef: React.MutableRefObject<HTMLElement[]>
 }
+
+const CV_FR = '/cv/Bastien_Faisant_CV.pdf';
+const CV_EN = '/cv/Bastien_Faisant_english_CV.pdf';
 
 export const Profile = ({ categoriesRef }: ProfileProps) => {
   const { t, i18n } = useTranslation();
@@ -43,10 +46,10 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
       <p>{profile.description}</p>
       <div className="flex flex-row justify-center items-center gap-8">
         <a href="https://www.linkedin.com/in/bastienfaisant/" target="_blank" rel="noreferrer">
-          <img src="linkedin.png" alt="LinkedIn" className="h-8 w-8" />
+          <img src="/public/linkedin.png" alt="LinkedIn" className="h-8 w-8" />
         </a>
         <a href="mailto:fst09bastien@gmail.com" target="_blank" rel="noreferrer">
-          <img src="gmail.svg" alt="Gmail" className="h-8 w-8" />
+          <img src="/public/gmail.svg" alt="Gmail" className="h-8 w-8" />
         </a>
         <a
           href={cvPdf}
