@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/layout.astro';
+import Layout from './../layouts/layout.astro';
 import { App } from '../components/app';
 
 import i18n, { i18nInit } from '../translations/i18n';
@@ -18,6 +18,6 @@ const resources = {
 i18nInit({ resources });
 ---
 
-<!-- <Layout title={i18n.t('title')}> -->
+<Layout title={i18n.t('title')}>
   <App client:load/>
-<!-- </Layout> -->
+</Layout>
