@@ -8,8 +8,8 @@
             "firstName": "Bastien",
             "lastName": "Faisant",
             "title": "Bastien Faisant",
-            "status": "Third-year engineering student",
-            "description": "Student in the third year of computer engineering school at ESIR, in Rennes, I am looking, as part of my training, for an end-of-year internship in the field of computer science, lasting 4 to 6 months to be carried out from March 4, 2024."
+            "status": "Fifth-year engineering student",
+            "description": "Student in fifth year of computer engineering school at ESIR, in Rennes, I am looking, as part of my training, for an end-of-year internship in the field of computer science, lasting 4 to 6 months to be carried out from March 4, 2024."
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "title": "Experience",
             "entities": [
                 {
-                    "title": "React Web Developer (Internship)",
+                    "title": "Frontend Web developer (Internship)",
                     "company": "FLYX Cloud",
                     "location": "Oudergem, Brussels Region, Belgium",
                     "startDate": "2023-06-05",
@@ -29,7 +29,7 @@
                     ]
                 },
                 {
-                    "title": "Flutter Web Developer (Internship)",
+                    "title": "Full Stack Web developer (Internship)",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Brittany, France",
                     "startDate": "2022-06-06",
@@ -48,19 +48,19 @@
             "title": "Projects",
             "entities": [
                 {
-                    "title": "White-label web-based order management solution",
+                    "title": "React web solution for white-label order management",
                     "startDate": "2023-01-01",
                     "endDate": "2023-01-01",
-                    "description": "Front-end web application in React with the Next.js framework. Interactionwith the backend developed in .NET.",
+                    "description": "Front-end web application in React with the Next.js framework. Interaction with the backend developed in .NET.",
                     "skills": [
-                        "React", "Next.js"
+                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
                     ]
                 },
                 {
                     "title": "Evaluation of young football players in data engineering",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
-                    "description": "Data retrieval via web scraping (BeautifulSoup and Selenium WebDriver) andPandas and Numpy for processing.",
+                    "description": "Data retrieval via web scraping (BeautifulSoup and Selenium WebDriver) and Pandas and Numpy for processing.",
                     "skills": [
                         "Python", "BeautifulSoup", "Selenium WebDriver", "Pandas", "Numpy"
                     ]
@@ -87,16 +87,16 @@
                     "title": "Development of a compiler for new programming language While in C++",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
-                    "description": "Compiler using ANTLR and Java to create a grammar lexer and parser, threeaddress code and runtime library for C++.",
+                    "description": "Compiler using ANTLR and Java to create a grammar lexer and parser, three-address code and runtime library for C++.",
                     "skills": [
                         "ANTLR", "Java", "C++"
                     ]
                 },
                 {
-                    "title": "Creation of a web application for managing training schedules",
+                    "title": "Flutter web application for managing training schedules",
                     "startDate": "2022-01-01",
                     "endDate": "2022-01-01",
-                    "description": "Frontend web application in Flutter/Dart, API in NodeJS with the NestJSframework and database hosted in MongoDB.",
+                    "description": "Frontend web application in Flutter/Dart, API in NodeJS with the NestJS framework and database hosted in MongoDB.",
                     "skills": [
                         "Flutter", "Dart", "NodeJS", "NestJS", "MongoDB"
                     ]
@@ -105,7 +105,7 @@
                     "title": "Mobile application for signposting and cleaning up illegal dumping",
                     "startDate": "2021-01-01",
                     "endDate": "2021-01-01",
-                    "description": "Android development in Java/XML with Android Studio and Visual Studio Codetools. Hosting of our database in Firebase.",
+                    "description": "Android development in Java/XML with Android Studio and Visual Studio Code tools. Hosting of our database in Firebase.",
                     "skills": [
                         "Java", "XML", "Firebase"
                     ]
@@ -119,7 +119,7 @@
             "entities": [
                 {
                     "school": "ESIR - Rennes Graduate School of Engineering",
-                    "degree": "Engineering degree",
+                    "degree": "Fifth-year student in a Master's program",
                     "speciality": "Computer science",
                     "startDate": "2021-09-01",
                     "endDate": "2024-07-05",

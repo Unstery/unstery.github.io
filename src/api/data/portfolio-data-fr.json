@@ -8,8 +8,8 @@
             "firstName": "Bastien",
             "lastName": "Faisant",
             "title": "Bastien Faisant",
-            "status": "Élève ingénieur en troisième année",
-            "description": "Étudiant en troisième année d'école d'Ingénieurs en informatique à l'ESIR, à Rennes, je suis à la recherche, dans le cadre de ma formation, d'un stage de fin d'année d'étude, dans le domaine de l'informatique, d'une durée de 4 à 6 mois à réaliser à partir du 04 mars 2024."
+            "status": "Élève ingénieur en cinquième année",
+            "description": "Étudiant en cinquième année d'école d'Ingénieurs en informatique à l'ESIR, à Rennes, je suis à la recherche, dans le cadre de ma formation, d'un stage de fin d'année d'études, dans le domaine de l'informatique, d'une durée de 4 à 6 mois à réaliser à partir du 04 mars 2024."
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "title": "Expérience",
             "entities": [
                 {
-                    "title": "Développeur web React (Stage)",
+                    "title": "Développeur web Frontend (Stage)",
                     "company": "FLYX Cloud",
                     "location": "Auderghem, Bruxelles-Capitale, Belgique",
                     "startDate": "2023-06-05",
@@ -29,7 +29,7 @@
                     ]
                 },
                 {
-                    "title": "Développeur web Flutter (Stage)",
+                    "title": "Développeur web Full Stack (Stage)",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Bretagne, France",
                     "startDate": "2022-06-06",
@@ -48,19 +48,19 @@
             "title": "Projets",
             "entities": [
                 {
-                    "title": "Solution web de gestion des commandes sous marque blanche",
+                    "title": "Solution web React de gestion des commandes en white-label",
                     "startDate": "2023-01-01",
                     "endDate": "2023-01-01",
-                    "description": "Application web frontend en React avec le framework Next.js. Interaction avecle backend développé en .NET.",
+                    "description": "Application web frontend en React avec le framework Next.js. Interaction avec le backend développé en .NET.",
                     "skills": [
-                        "React", "Next.js"
+                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
                     ]
                 },
                 {
-                    "title": "Évaluation des jeunes joueurs de football en data",
+                    "title": "Évaluation des jeunes joueurs de football en data engineering",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
-                    "description": "Récupération des données via web scraping (BeautifulSoup et SeleniumWebDriver) et Pandas et Numpy pour le traitement.",
+                    "description": "Récupération des données via web scraping (BeautifulSoup et Selenium WebDriver) et Pandas et Numpy pour le traitement.",
                     "skills": [
                         "Python", "BeautifulSoup", "Selenium WebDriver", "Pandas", "Numpy"
                     ]
@@ -93,10 +93,10 @@
                     ]
                 },
                 {
-                    "title": "Application web de gestion des plannings de formation",
+                    "title": "Application web Flutter de gestion des plannings de formation",
                     "startDate": "2022-01-01",
                     "endDate": "2022-01-01",
-                    "description": "Application web frontend en Flutter/Dart, API en NodeJS avec le frameworkNestJS et base de données hébergée sous MongoDB.",
+                    "description": "Application web frontend en Flutter/Dart, API en NodeJS avec le framework NestJS et base de données hébergée sous MongoDB.",
                     "skills": [
                         "Flutter", "Dart", "NodeJS", "NestJS", "MongoDB"
                     ]
@@ -105,7 +105,7 @@
                     "title": "Application mobile de signalisation et de nettoyage de dépôts sauvages",
                     "startDate": "2021-01-01",
                     "endDate": "2021-01-01",
-                    "description": "Développement Android en Java/XML avec les outils Android Studio et VisualStudio Code. Hébergement de notre base de données sous Firebase.",
+                    "description": "Développement Android en Java/XML avec les outils Android Studio et Visual Studio Code. Hébergement de notre base de données sous Firebase.",
                     "skills": [
                         "Java", "XML", "Firebase"
                     ]
@@ -119,7 +119,7 @@
             "entities": [
                 {
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
-                    "degree": "École d'Ingénieurs",
+                    "degree": "École d'Ingénieurs, cinquième année",
                     "speciality": "Informatique",
                     "startDate": "2021-09-01",
                     "endDate": "2024-07-05",
