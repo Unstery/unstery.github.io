@@ -2,16 +2,14 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
 import { usePortfolio } from '../../modules/portfolio';
-// import CV_FR from '../../../public/cv/Bastien_Faisant_CV.pdf';
-// import CV_EN from '../../../public/cv/Bastien_Faisant_english_CV.pdf';
 import { LanguagesEnum } from '../../enums/languages.enum';
 
 interface ProfileProps {
   categoriesRef: React.MutableRefObject<HTMLElement[]>
 }
 
-const CV_FR = '/cv/Bastien_Faisant_CV.pdf';
-const CV_EN = '/cv/Bastien_Faisant_english_CV.pdf';
+const CV_FR = '/portfolio/cv/Bastien_Faisant_CV.pdf';
+const CV_EN = '/portfolio/cv/Bastien_Faisant_english_CV.pdf';
 
 export const Profile = ({ categoriesRef }: ProfileProps) => {
   const { t, i18n } = useTranslation();
@@ -54,7 +52,7 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
         <a
           href={cvPdf}
           // download={`cv_${i18n.language}_bastien_faisant`} // Directly download the PDF file
-          // target="_blank" // Open the PDF file in another tab
+          target="_blank" // Open the PDF file in another tab
           className="h-full flex justify-center items-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200"
           rel="noreferrer"
         >
