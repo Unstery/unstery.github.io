@@ -33,7 +33,7 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
 
   return (
     <section
-      className="h-[calc(100vh-120px)] w-full p-16 bg-background-300 dark:bg-background-600 flex flex-col justify-center items-center gap-16 rounded-lg"
+      className="min-h-[calc(100vh-120px)] w-full p-16 bg-background-300 dark:bg-background-600 flex flex-col justify-center items-center gap-16 rounded-lg"
       ref={(element) => categoriesRef.current.push(element!)}
       id={profile.title}
     >
@@ -53,7 +53,7 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
           href={cvPdf}
           // download={`cv_${i18n.language}_bastien_faisant`} // Directly download the PDF file
           target="_blank" // Open the PDF file in another tab
-          className="h-full flex justify-center items-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200"
+          className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200"
           rel="noreferrer"
         >
           {t('downloadResume')}

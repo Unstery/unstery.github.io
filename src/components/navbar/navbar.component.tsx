@@ -28,7 +28,7 @@ export const Navbar = ({ categoriesRef, activeCategory, setActiveCategory }: Nav
 
   return (
     <div className="navbar sticky top-0 w-full flex flex-row justify-between items-center px-8 py-5 bg-background-200 dark:bg-background-700">
-      <div className="flex flex-row justify-start items-center gap-8 text-xl">
+      <div className="flex flex-row justify-start items-center gap-8 text-xl overflow-auto">
         {categories.map((category, i) => (
           <a
             href={`#${category.title}`}
