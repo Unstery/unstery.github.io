@@ -42,18 +42,18 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
         <h2 className="text-lg sm:text-3xl md:text-3xl lg:text-4xl text-center text-primary-200">{profile.status}</h2>
       </div>
       <p>{profile.description}</p>
-      <div className="flex flex-row justify-center items-center gap-8">
-        <a href="https://www.linkedin.com/in/bastienfaisant/" target="_blank" rel="noreferrer">
-          <img src="/portfolio/linkedin.png" alt="LinkedIn" className="h-8 w-8" />
+      <div className="h-12 flex flex-row justify-center items-center gap-6">
+        <a href="https://www.linkedin.com/in/bastienfaisant/" target="_blank" rel="noreferrer" className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200">
+          <img src="/portfolio/linkedin.svg" alt="LinkedIn" className="h-7 w-7" />
         </a>
-        <a href="mailto:fst09bastien@gmail.com" target="_blank" rel="noreferrer">
-          <img src="/portfolio/gmail.svg" alt="Gmail" className="h-8 w-8" />
+        <a href="mailto:fst09bastien@gmail.com" target="_blank" rel="noreferrer" className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200">
+          <img src="/portfolio/gmail.svg" alt="Gmail" className="h-7 w-7" />
         </a>
         <a
           href={cvPdf}
           // download={`cv_${i18n.language}_bastien_faisant`} // Directly download the PDF file
           target="_blank" // Open the PDF file in another tab
-          className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200"
+          className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200 font-bold text-2xl"
           rel="noreferrer"
         >
           {t('downloadResume')}
