@@ -46,10 +46,10 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
       <p>{profile.description}</p>
       <div className="flex flex-row justify-center items-center gap-8">
         <a href="https://www.linkedin.com/in/bastienfaisant/" target="_blank" rel="noreferrer">
-          <img src="/portfolio/linkedin.png" alt="LinkedIn" className="h-8 w-8" />
+          <img src="portfolio/linkedin.png" alt="LinkedIn" className="h-8 w-8" />
         </a>
         <a href="mailto:fst09bastien@gmail.com" target="_blank" rel="noreferrer">
-          <img src="/portfolio/gmail.svg" alt="Gmail" className="h-8 w-8" />
+          <img src="portfolio/gmail.svg" alt="Gmail" className="h-8 w-8" />
         </a>
         <a
           href={cvPdf}
