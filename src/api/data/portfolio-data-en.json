@@ -1,9 +1,9 @@
 {
-    "id": 0,
+    "id": "0",
     "title": "Portfolio",
     "categories": [
         {
-            "id": 1,
+            "id": "1",
             "type": "Bastien Faisant",
             "firstName": "Bastien",
             "lastName": "Faisant",
@@ -12,11 +12,12 @@
             "description": "Student in fifth year of computer engineering school at ESIR, in Rennes, I am looking, as part of my training, for an end-of-year internship in the field of computer science, lasting 4 to 6 months to be carried out from March 4, 2024."
         },
         {
-            "id": 2,
+            "id": "2",
             "type": "Experience",
             "title": "Experience",
             "entities": [
                 {
+                    "id": "1",
                     "title": "Frontend Web developer (Internship)",
                     "company": "FLYX Cloud",
                     "location": "Oudergem, Brussels Region, Belgium",
@@ -29,6 +30,7 @@
                     ]
                 },
                 {
+                    "id": "0",
                     "title": "Full Stack Web developer (Internship)",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Brittany, France",
@@ -43,11 +45,12 @@
             ]
         },
         {
-            "id": 3,
+            "id": "3",
             "type": "Project",
             "title": "Projects",
             "entities": [
                 {
+                    "id": "6",
                     "title": "React web solution for white-label order management",
                     "startDate": "2023-01-01",
                     "endDate": "2023-01-01",
@@ -57,6 +60,7 @@
                     ]
                 },
                 {
+                    "id": "5",
                     "title": "Evaluation of young football players in data engineering",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -66,6 +70,7 @@
                     ]
                 },
                 {
+                    "id": "4",
                     "title": "Peer-to-peer mobile gaming application",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -75,6 +80,7 @@
                     ]
                 },
                 {
+                    "id": "3",
                     "title": "Dockerized microservices of an association manager",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -84,6 +90,7 @@
                     ]
                 },
                 {
+                    "id": "2",
                     "title": "Development of a compiler for new programming language While in C++",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -93,6 +100,7 @@
                     ]
                 },
                 {
+                    "id": "1",
                     "title": "Flutter web application for managing training schedules",
                     "startDate": "2022-01-01",
                     "endDate": "2022-01-01",
@@ -102,6 +110,7 @@
                     ]
                 },
                 {
+                    "id": "0",
                     "title": "Mobile application for signposting and cleaning up illegal dumping",
                     "startDate": "2021-01-01",
                     "endDate": "2021-01-01",
@@ -113,11 +122,12 @@
             ]
         },
         {
-            "id": 4,
+            "id": "4",
             "type": "Education",
             "title": "Education",
             "entities": [
                 {
+                    "id": "2",
                     "school": "ESIR - Rennes Graduate School of Engineering",
                     "degree": "Fifth-year student in a Master's program",
                     "speciality": "Computer science",
@@ -126,6 +136,7 @@
                     "image": "esir.png"
                 },
                 {
+                    "id": "1",
                     "school": "ESIR - Rennes Graduate School of Engineering",
                     "degree": "Two-years of preparing university cycle (CUPGE)",
                     "speciality": "Information technology",
@@ -134,6 +145,7 @@
                     "image": "esir.png"
                 },
                 {
+                    "id": "0",
                     "school": "Jean Guéhenno high school, Fougères",
                     "degree": "Bachelor's Degrees (BSC)",
                     "speciality": "Engineering Sciences",

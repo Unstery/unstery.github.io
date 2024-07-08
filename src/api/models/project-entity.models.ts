@@ -1,4 +1,5 @@
 export interface ProjectEntity {
+  id: string,
   title: string,
   startDate: Date,
   endDate: Date,

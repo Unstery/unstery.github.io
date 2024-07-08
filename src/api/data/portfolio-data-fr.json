@@ -1,9 +1,9 @@
 {
-    "id": 0,
+    "id": "0",
     "title": "Portfolio",
     "categories": [
         {
-            "id": 1,
+            "id": "1",
             "type": "Bastien Faisant",
             "firstName": "Bastien",
             "lastName": "Faisant",
@@ -12,11 +12,12 @@
             "description": "Étudiant en cinquième année d'école d'Ingénieurs en informatique à l'ESIR, à Rennes, je suis à la recherche, dans le cadre de ma formation, d'un stage de fin d'année d'études, dans le domaine de l'informatique, d'une durée de 4 à 6 mois à réaliser à partir du 04 mars 2024."
         },
         {
-            "id": 2,
+            "id": "2",
             "type": "Experience",
             "title": "Expérience",
             "entities": [
                 {
+                    "id": "1",
                     "title": "Développeur web Frontend (Stage)",
                     "company": "FLYX Cloud",
                     "location": "Auderghem, Bruxelles-Capitale, Belgique",
@@ -29,6 +30,7 @@
                     ]
                 },
                 {
+                    "id": "0",
                     "title": "Développeur web Full Stack (Stage)",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Bretagne, France",
@@ -43,11 +45,12 @@
             ]
         },
         {
-            "id": 3,
+            "id": "3",
             "type": "Project",
             "title": "Projets",
             "entities": [
                 {
+                    "id": "6",
                     "title": "Solution web React de gestion des commandes en white-label",
                     "startDate": "2023-01-01",
                     "endDate": "2023-01-01",
@@ -57,6 +60,7 @@
                     ]
                 },
                 {
+                    "id": "5",
                     "title": "Évaluation des jeunes joueurs de football en data engineering",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -66,6 +70,7 @@
                     ]
                 },
                 {
+                    "id": "4",
                     "title": "Application de jeux mobile en pair-à-pair",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -75,6 +80,7 @@
                     ]
                 },
                 {
+                    "id": "3",
                     "title": "Microservices dockerisés d'un gestionnaire d'association",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -84,6 +90,7 @@
                     ]
                 },
                 {
+                    "id": "2",
                     "title": "Compilateur pour un nouveau langage de programmation While en C++",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -93,6 +100,7 @@
                     ]
                 },
                 {
+                    "id": "1",
                     "title": "Application web Flutter de gestion des plannings de formation",
                     "startDate": "2022-01-01",
                     "endDate": "2022-01-01",
@@ -102,6 +110,7 @@
                     ]
                 },
                 {
+                    "id": "0",
                     "title": "Application mobile de signalisation et de nettoyage de dépôts sauvages",
                     "startDate": "2021-01-01",
                     "endDate": "2021-01-01",
@@ -113,11 +122,12 @@
             ]
         },
         {
-            "id": 4,
+            "id": "4",
             "type": "Education",
             "title": "Formation",
             "entities": [
                 {
+                    "id": "2",
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
                     "degree": "École d'Ingénieurs, cinquième année",
                     "speciality": "Informatique",
@@ -126,6 +136,7 @@
                     "image": "esir.png"
                 },
                 {
+                    "id": "1",
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
                     "degree": "Cycle Universitaire Préparatoire aux Grandes Écoles (CUPGE)",
                     "speciality": "Technologie de l'information",
@@ -134,6 +145,7 @@
                     "image": "esir.png"
                 },
                 {
+                    "id": "0",
                     "school": "Lycée Jean Guéhenno, Fougères",
                     "degree": "Baccalauréat Scientifique (BAS S)",
                     "speciality": "Sciences de l'ingénieur",

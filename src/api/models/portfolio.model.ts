@@ -1,7 +1,7 @@
 import type { CategoryType } from '../types/categories.type';
 
 export interface PortfolioRoot {
-  id: number,
+  id: string,
   title: string,
   categories: CategoryType[]
 }
