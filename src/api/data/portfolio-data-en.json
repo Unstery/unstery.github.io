@@ -8,14 +8,27 @@
             "firstName": "Bastien",
             "lastName": "Faisant",
             "title": "Bastien Faisant",
-            "status": "Fifth-year engineering student",
-            "description": "Student in fifth year of computer engineering school at ESIR, in Rennes, I am looking, as part of my training, for an end-of-year internship in the field of computer science, lasting 4 to 6 months to be carried out from March 4, 2024."
+            "status": "IT Engineer",
+            "description": "Computer engineer graduated from ESIR, in Rennes, I am looking for a permanent contract as a Full Stack developer from September 2024. Passionate about web and software development, I am ready to bring my skills and my dynamism to a innovative team."
         },
         {
             "id": "2",
             "type": "Experience",
             "title": "Experience",
             "entities": [
+                {
+                    "id": "2",
+                    "title": "Full Stack Web developer (Internship)",
+                    "company": "ASI",
+                    "location": "Cesson-Sévigné, Brittany, France",
+                    "startDate": "2024-03-05",
+                    "endDate": "2024-08-30",
+                    "description": "Recruitment management web application in Angular, API in NodeJS with the NestJS framework and database hosted in PostgreSQL.",
+                    "image": "asi.jpg",
+                    "skills": [
+                        "TypeScript", "Angular", "Material", "I18n", "ESLint", "Node.js", "NestJS", "PostgreSQL"
+                    ]
+                },
                 {
                     "id": "1",
                     "title": "Frontend Web developer (Internship)",
@@ -49,6 +62,46 @@
             "type": "Project",
             "title": "Projects",
             "entities": [
+                {
+                    "id": "10",
+                    "title": "Creation of a domain-specific language to define robot behaviour",
+                    "startDate": "2024-01-01",
+                    "endDate": "2024-01-01",
+                    "description": "Modelling and implementation of the domain with Ecore. Creation of the grammar with Langium (in TypeScript). Development of an interpreter for a Web simulator and a compiler for Arduino code.",
+                    "skills": [
+                        "Eclipse Modeling Framework", "Ecore", "Xtext", "TypeScript", "Langium", "Language Server Protocol (LSP)", "Arduino"
+                    ]
+                },
+                {
+                    "id": "9",
+                    "title": "Client-Server micro-services architecture with the LwM2M communication protocol",
+                    "startDate": "2024-01-01",
+                    "endDate": "2024-01-01",
+                    "description": "Analysis of the protocol and creation of a Client-Server implementation using the Eclipse Leshan Java library. Backend in Java Spring Boot and web interface in Vue.js.",
+                    "skills": [
+                        "Java", "Spring", "Spring Boot", "Eclipse Leshan", "Vue.js", "Docker"
+                    ]
+                },
+                {
+                    "id": "8",
+                    "title": "Implementation of a distributed game on a Client-Server model in Java RMI",
+                    "startDate": "2024-01-01",
+                    "endDate": "2024-01-01",
+                    "description": "Server developed using the Spring framework and Spring Remoting RMI technology.",
+                    "skills": [
+                        "Java", "Spring", "Spring Remoting", "Java RMI"
+                    ]
+                },
+                {
+                    "id": "7",
+                    "title": "Generating captions for food images (Image Captioning)",
+                    "startDate": "2023-01-01",
+                    "endDate": "2023-01-01",
+                    "description": "Training of a model on a data set, developed in Python with the TensorFlow and PyTorch machine learning libraries and fine-tuned with a model of pre-trained transformers from the Hugging Face Transformers library.",
+                    "skills": [
+                        "Python", "TensorFlow", "PyTorch", "Hugging Face Transformers", "Pandas", "Numpy"
+                    ]
+                },
                 {
                     "id": "6",
                     "title": "React web solution for white-label order management",
