@@ -1,22 +1,36 @@
 {
-    "id": 0,
+    "id": "0",
     "title": "Portfolio",
     "categories": [
         {
-            "id": 1,
+            "id": "1",
             "type": "Bastien Faisant",
             "firstName": "Bastien",
             "lastName": "Faisant",
             "title": "Bastien Faisant",
-            "status": "Élève ingénieur en cinquième année",
-            "description": "Étudiant en cinquième année d'école d'Ingénieurs en informatique à l'ESIR, à Rennes, je suis à la recherche, dans le cadre de ma formation, d'un stage de fin d'année d'études, dans le domaine de l'informatique, d'une durée de 4 à 6 mois à réaliser à partir du 04 mars 2024."
+            "status": "Ingénieur en informatique",
+            "description": "Ingénieur en informatique diplômé de l'ESIR, je suis à la recherche d'un CDI en tant que développeur Full Stack à partir de septembre 2024. Passionné par le développement web et logiciel, je suis prêt à apporter mes compétences et mon dynamisme à une équipe innovante."
         },
         {
-            "id": 2,
+            "id": "2",
             "type": "Experience",
             "title": "Expérience",
             "entities": [
                 {
+                    "id": "2",
+                    "title": "Développeur web Full Stack (Stage)",
+                    "company": "ASI",
+                    "location": "Cesson-Sévigné, Bretagne, France",
+                    "startDate": "2024-03-05",
+                    "endDate": "2024-08-30",
+                    "description": "Application web de gestion des recrutements\nFrontend en Angular, API en NodeJS avec le framework NestJS et base de données hébergée sous PostgreSQL.",
+                    "image": "asi.jpg",
+                    "skills": [
+                        "TypeScript", "Angular", "Material", "I18n", "ESLint", "Node.js", "NestJS", "PostgreSQL"
+                    ]
+                },
+                {
+                    "id": "1",
                     "title": "Développeur web Frontend (Stage)",
                     "company": "FLYX Cloud",
                     "location": "Auderghem, Bruxelles-Capitale, Belgique",
@@ -29,6 +43,7 @@
                     ]
                 },
                 {
+                    "id": "0",
                     "title": "Développeur web Full Stack (Stage)",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Bretagne, France",
@@ -43,11 +58,52 @@
             ]
         },
         {
-            "id": 3,
+            "id": "3",
             "type": "Project",
             "title": "Projets",
             "entities": [
                 {
+                    "id": "10",
+                    "title": "Création d'un langage dédié (Domain-specific language) pour définir le comportement d'un robot",
+                    "startDate": "2024-01-01",
+                    "endDate": "2024-01-01",
+                    "description": "Modélisation et implémentation du domaine avec Ecore. Création de la grammaire avec Langium (en TypeScript). Développement d'un interpréteur pour simulateur Web et d'un compilateur en code Arduino.",
+                    "skills": [
+                        "Eclipse Modeling Framework", "Ecore", "Xtext", "TypeScript", "Langium", "Language Server Protocol (LSP)", "Arduino"
+                    ]
+                },
+                {
+                    "id": "9",
+                    "title": "Architecture en micro-services Client-Serveur avec le protocole de communication  LwM2M",
+                    "startDate": "2024-01-01",
+                    "endDate": "2024-01-01",
+                    "description": "Analyse du protocole et Mise en place d'une implémentation Client-Serveur via l'utilisation de la bibliothèque Java Eclipse Leshan. Backend en Java Spring Boot et Interface web en Vue.js.",
+                    "skills": [
+                        "Java", "Spring", "Spring Boot", "Eclipse Leshan", "Vue.js", "Docker"
+                    ]
+                },
+                {
+                    "id": "8",
+                    "title": "Implémentation d'un jeu distribué sur modèle Client-Serveur en Java RMI",
+                    "startDate": "2024-01-01",
+                    "endDate": "2024-01-01",
+                    "description": "Serveur développé avec le framework Spring et la technologie Spring Remoting RMI.",
+                    "skills": [
+                        "Java", "Spring", "Spring Remoting", "Java RMI"
+                    ]
+                },
+                {
+                    "id": "7",
+                    "title": "Génération de légendes pour des images de nourriture (Image Captioning)",
+                    "startDate": "2023-01-01",
+                    "endDate": "2023-01-01",
+                    "description": "Entrainement d'un modèle sur un ensemble de données, développé en Python avec les bibliothèques d'apprentissage machine TensorFlow et PyTorch et affiné (fine-tuned) avec un modèle de transformateurs pré-entraînés de la bibliothèque Hugging Face Transformers.",
+                    "skills": [
+                        "Python", "TensorFlow", "PyTorch", "Hugging Face Transformers", "Pandas", "Numpy"
+                    ]
+                },
+                {
+                    "id": "6",
                     "title": "Solution web React de gestion des commandes en white-label",
                     "startDate": "2023-01-01",
                     "endDate": "2023-01-01",
@@ -57,6 +113,7 @@
                     ]
                 },
                 {
+                    "id": "5",
                     "title": "Évaluation des jeunes joueurs de football en data engineering",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -66,6 +123,7 @@
                     ]
                 },
                 {
+                    "id": "4",
                     "title": "Application de jeux mobile en pair-à-pair",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -75,6 +133,7 @@
                     ]
                 },
                 {
+                    "id": "3",
                     "title": "Microservices dockerisés d'un gestionnaire d'association",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -84,6 +143,7 @@
                     ]
                 },
                 {
+                    "id": "2",
                     "title": "Compilateur pour un nouveau langage de programmation While en C++",
                     "startDate": "2022-01-01",
                     "endDate": "2023-01-01",
@@ -93,6 +153,7 @@
                     ]
                 },
                 {
+                    "id": "1",
                     "title": "Application web Flutter de gestion des plannings de formation",
                     "startDate": "2022-01-01",
                     "endDate": "2022-01-01",
@@ -102,6 +163,7 @@
                     ]
                 },
                 {
+                    "id": "0",
                     "title": "Application mobile de signalisation et de nettoyage de dépôts sauvages",
                     "startDate": "2021-01-01",
                     "endDate": "2021-01-01",
@@ -113,11 +175,12 @@
             ]
         },
         {
-            "id": 4,
+            "id": "4",
             "type": "Education",
             "title": "Formation",
             "entities": [
                 {
+                    "id": "2",
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
                     "degree": "École d'Ingénieurs, cinquième année",
                     "speciality": "Informatique",
@@ -126,6 +189,7 @@
                     "image": "esir.png"
                 },
                 {
+                    "id": "1",
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
                     "degree": "Cycle Universitaire Préparatoire aux Grandes Écoles (CUPGE)",
                     "speciality": "Technologie de l'information",
@@ -134,6 +198,7 @@
                     "image": "esir.png"
                 },
                 {
+                    "id": "0",
                     "school": "Lycée Jean Guéhenno, Fougères",
                     "degree": "Baccalauréat Scientifique (BAS S)",
                     "speciality": "Sciences de l'ingénieur",

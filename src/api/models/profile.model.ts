@@ -1,7 +1,7 @@
 import { CategoryEnum } from '../enum/category.enum';
 
 export interface Profile {
-  id: number,
+  id: string,
   type: CategoryEnum.PROFILE;
   firstName: string,
   lastName: string,

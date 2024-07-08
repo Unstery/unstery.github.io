@@ -1,4 +1,5 @@
 export interface ExperienceEntity {
+  id: string,
   title: string,
   company: string,
   location: string,
