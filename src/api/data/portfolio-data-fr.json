@@ -113,7 +113,8 @@
                     "description": "Application web frontend en React avec le framework Next.js. Interaction avec le backend développé en .NET.",
                     "skills": [
                         "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
-                    ]
+                    ],
+                    "content": ""
                 },
                 {
                     "id": "5",
@@ -123,7 +124,8 @@
                     "description": "Récupération des données via web scraping (BeautifulSoup et Selenium WebDriver) et Pandas et Numpy pour le traitement.",
                     "skills": [
                         "Python", "BeautifulSoup", "Selenium WebDriver", "Pandas", "Numpy"
-                    ]
+                    ],
+                    "content": "https://gitlab.istic.univ-rennes1.fr/bfaisant/de-foottalenttracker/-/blob/main/README.md"
                 },
                 {
                     "id": "4",
@@ -133,7 +135,8 @@
                     "description": "Application Flutter pour des défis solo et multijoueur en Wi-Fi Peer-to-Peer.",
                     "skills": [
                         "Flutter", "Dart"
-                    ]
+                    ],
+                    "content": "https://gitlab.istic.univ-rennes1.fr/bfaisant/wi_game/-/blob/main/README.md"
                 },
                 {
                     "id": "3",
@@ -143,7 +146,8 @@
                     "description": "Architecture utilisant NestJS, MySQL, Angular, Quarkus, RabbitMQ et Nginx.",
                     "skills": [
                         "NestJS", "MySQL", "Angular", "Quarkus", "RabbitMQ", "Nginx"
-                    ]
+                    ],
+                    "content": "https://gitlab.istic.univ-rennes1.fr/bfaisant/architecture-administration/-/blob/main/Architecture.md"
                 },
                 {
                     "id": "2",
@@ -153,7 +157,8 @@
                     "description": "Compilateur utilisant ANTLR et Java pour créer un lexer et un parser de grammaire, un code 3 adresses et une bibliothèque d'exécution pour C++.",
                     "skills": [
                         "ANTLR", "Java", "C++"
-                    ]
+                    ],
+                    "content": "https://gitlab.istic.univ-rennes1.fr/kicornec/while_compiler/-/blob/main/README.md"
                 },
                 {
                     "id": "1",
@@ -163,7 +168,8 @@
                     "description": "Application web frontend en Flutter/Dart, API en NodeJS avec le framework NestJS et base de données hébergée sous MongoDB.",
                     "skills": [
                         "Flutter", "Dart", "NodeJS", "NestJS", "MongoDB"
-                    ]
+                    ],
+                    "content": ""
                 },
                 {
                     "id": "0",
@@ -173,7 +179,8 @@
                     "description": "Développement Android en Java/XML avec les outils Android Studio et Visual Studio Code. Hébergement de notre base de données sous Firebase.",
                     "skills": [
                         "Java", "XML", "Firebase"
-                    ]
+                    ],
+                    "content": ""
                 }
             ]
         },
