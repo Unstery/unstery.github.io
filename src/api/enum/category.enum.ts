@@ -1,5 +1,5 @@
 export enum CategoryEnum {
-  PROFILE = 'Bastien Faisant',
+  PROFILE = 'Profile',
   EDUCATION = 'Education',
   EXPERIENCE = 'Experience',
   PROJECT = 'Project'
