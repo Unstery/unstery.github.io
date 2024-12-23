@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useState } from 'react';
-import { useClickAway } from 'react-use';
 
 import { CategoryType } from '../../api/types/categories.type';
 import { Options } from './options/options.component';
+import { useClickAway } from '../../modules/portfolio';
 
 interface NavMobileProps {
   categories: CategoryType[];
