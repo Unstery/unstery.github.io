@@ -3,16 +3,19 @@
     "title": "Portfolio",
     "categories": [
         {
-            "id": "1",
-            "type": "Bastien Faisant",
+            "id": "0",
+            "type": "Profile",
+            "title": "Profile",
             "firstName": "Bastien",
             "lastName": "Faisant",
-            "title": "Bastien Faisant",
+            "welcome": "Hi, I am",
             "status": "IT Engineer",
+            "formation": "Graduated from the Rennes Graduate School of Engineering (ESIR)",
+            "tags": ["Web & Mobile Development", "DevOps"],
             "description": "Computer engineer graduated from ESIR, in Rennes, I am looking for a permanent contract as a Full Stack developer from September 2024. Passionate about web and software development, I am ready to bring my skills and my dynamism to a innovative team."
         },
         {
-            "id": "2",
+            "id": "1",
             "type": "Experience",
             "title": "Experience",
             "entities": [
@@ -58,7 +61,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": "2",
             "type": "Project",
             "title": "Projects",
             "entities": [
@@ -175,7 +178,7 @@
             ]
         },
         {
-            "id": "4",
+            "id": "3",
             "type": "Education",
             "title": "Education",
             "entities": [

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 
 import { usePortfolio } from '../../modules/portfolio';
 import { LanguagesEnum } from '../../enums/languages.enum';
@@ -33,32 +33,40 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
 
   return (
     <section
-      className="min-h-[calc(100vh-120px)] w-full p-16 bg-background-300 dark:bg-background-600 flex flex-col justify-center items-center gap-16 rounded-lg"
       ref={(element) => categoriesRef.current.push(element!)}
       id={profile.title}
+      className="h-[calc(100vh-80px)] w-full p-4 flex flex-col-reverse md:flex-row justify-evenly gap-4 items-center"
     >
-      <div className="flex flex-col gap-4">
-        <h1 className="text-4xl sm:text-7xl md:text-7xl lg:text-8xl text-center">{profile.title}</h1>
-        <h2 className="text-lg sm:text-3xl md:text-3xl lg:text-4xl text-center text-primary-200">{profile.status}</h2>
-      </div>
-      <p>{profile.description}</p>
-      <div className="h-12 flex flex-row justify-center items-center gap-6">
-        <a href="https://www.linkedin.com/in/bastienfaisant/" target="_blank" rel="noreferrer" className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200">
-          <img src="/portfolio/linkedin.svg" alt="LinkedIn" className="h-7 w-7" />
-        </a>
-        <a href="mailto:fst09bastien@gmail.com" target="_blank" rel="noreferrer" className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200">
-          <img src="/portfolio/gmail.svg" alt="Gmail" className="h-7 w-7" />
-        </a>
-        <a
-          href={cvPdf}
+      <div className="flex flex-col justify-center items-center gap-16">
+        <div className="flex flex-col gap-4 text-2xl sm:text-3xl md:text-3xl lg:text-5xl xl:text-5xl">
+          <span>{`${profile.welcome} ${profile.firstName} ${profile.lastName}`}</span>
+          <span className="text-primary-200">{profile.status}</span>
+          <span className="text-base sm:text-lg md:text-lg lg:text-2xl">{profile.formation}</span>
+        </div>
+
+        <div className="flex flex-row gap-4 fill-primary-200 items-center">
+          {profile.tags.map((tag, index) => (
+            <Fragment key={tag}>
+              <span className="">{tag}</span>
+              {index < profile.tags.length - 1 && <span className="w-2 h-2 rounded-full bg-primary-200" />}
+            </Fragment>
+          ))}
+        </div>
+
+        <div className="h-12 flex flex-row justify-center items-center gap-6">
+          <a
+            href={cvPdf}
           // download={`cv_${i18n.language}_bastien_faisant`} // Directly download the PDF file
-          target="_blank" // Open the PDF file in another tab
-          className="h-full flex justify-center items-center text-center p-[10px] rounded-2xl bg-background-200 dark:bg-background-700 text-text-700 dark:text-text-200 font-bold text-2xl"
-          rel="noreferrer"
-        >
-          {t('downloadResume')}
-        </a>
+            target="_blank" // Open the PDF file in another tab
+            className="h-full flex justify-center items-center text-center p-3 rounded-2xl bg-primary-200 dark:bg-primary-200 text-text-200 dark:text-text-200 font-bold"
+            rel="noreferrer"
+          >
+            {t('downloadResume')}
+          </a>
+        </div>
       </div>
+      <img src="/portfolio/profile/pp.jpg" alt="profile" className="rounded-full object-cover max-h-[33%] max-w-[75%] md:max-h-[75%] md:max-w-[33%]" />
     </section>
+
   );
 };
