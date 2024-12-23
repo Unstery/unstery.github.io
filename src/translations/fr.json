@@ -2,5 +2,5 @@
     "title": "Portfolio",
     "month_one": "{{count}} mois",
     "month_other": "{{count}} mois",
-    "downloadResume": "CV"
+    "downloadResume": "Télécharger mon CV"
 }

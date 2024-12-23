@@ -3,16 +3,19 @@
     "title": "Portfolio",
     "categories": [
         {
-            "id": "1",
-            "type": "Bastien Faisant",
+            "id": "0",
+            "type": "Profile",
+            "title": "Profil",
             "firstName": "Bastien",
             "lastName": "Faisant",
-            "title": "Bastien Faisant",
+            "welcome": "Bonjour, je suis",
             "status": "Ingénieur en informatique",
-            "description": "Ingénieur en informatique diplômé de l'ESIR, je suis à la recherche d'un CDI en tant que développeur Full Stack à partir de septembre 2024. Passionné par le développement web et logiciel, je suis prêt à apporter mes compétences et mon dynamisme à une équipe innovante."
+            "formation": "Diplomé de l'École Supérieure d'Ingénieurs de Rennes (ESIR)",
+            "tags": ["Développement Web & Mobile", "DevOps"],
+            "description": "Bonjour, je suis Bastien Faisant, ingénieur en informatique diplômé de l'École Supérieure d'Ingénieurs de Rennes (ESIR).\nPassionné par le développement web et logiciel, je me spécialise dans les technologies Full Stack, avec une expertise en Java et JavaScript. Curieux et rigoureux, je suis toujours prêt à relever de nouveaux défis et à m'adapter rapidement à différents environnements de travail.\nMon dynamisme, ma capacité d'adaptation, et mon sens de l'organisation me permettent de m'intégrer efficacement au sein d'équipes innovantes pour développer des solutions performantes et pérennes."
         },
         {
-            "id": "2",
+            "id": "1",
             "type": "Experience",
             "title": "Expérience",
             "entities": [
@@ -58,7 +61,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": "2",
             "type": "Project",
             "title": "Projets",
             "entities": [
@@ -175,7 +178,7 @@
             ]
         },
         {
-            "id": "4",
+            "id": "3",
             "type": "Education",
             "title": "Formation",
             "entities": [
