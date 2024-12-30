@@ -5,5 +5,19 @@
   ],
   "baseBranches": ["develop"],
   "reviewers": ["Unstery"],
-  "assignees": ["Unstery"]
+  "assignees": ["Unstery"],
+  "packageRules": [
+    {
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
+      "groupName": "all major dependencies",
+      "groupSlug": "all-major-patch",
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["major"]
+    }
+  ]
 }
