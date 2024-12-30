@@ -18,6 +18,6 @@
       "groupSlug": "all-major-patch",
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["major"]
-    },
+    }
   ]
 }
