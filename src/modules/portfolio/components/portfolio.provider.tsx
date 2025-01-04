@@ -14,11 +14,11 @@ export const PortfolioProvider = ({ children, }: PropsWithChildren) => {
     isSuccess,
     isLoading,
     refetch
-  } = useQuery(
-    ['product-tree', i18n.language],
-    () => portfolioService.fetchPortfolio(),
-    { cacheTime: 0 }
-  );
+  } = useQuery({
+    queryKey: ['product-tree', i18n.language],
+    queryFn: () => portfolioService.fetchPortfolio(),
+    gcTime: 0
+  });
 
   const value = useMemo(() => ({
     portfolioRoot,

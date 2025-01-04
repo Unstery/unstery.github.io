@@ -1,5 +1,8 @@
 module.exports = {
-    extends: ['airbnb', 'airbnb-typescript'],
+    extends: [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended"],
     rules: {
       'react/react-in-jsx-scope': 0,
       'react/require-default-props': 0,
@@ -12,6 +15,7 @@ module.exports = {
     },
     ignorePatterns: ["**/*.js","**/*.cjs","**/*.json","**/*.md","**/*.sh","**/*.yml"],
     parser: "@typescript-eslint/parser",
+    plugins: ['@typescript-eslint'],
     parserOptions: {
       sourceType: "module",
       tsconfigRootDir: __dirname,

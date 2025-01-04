@@ -1,3 +1,5 @@
+import type { i18n } from 'i18next';
+
 export const calculateMonthDiff = (startDate: Date, endDate: Date) => {
   let months;
   months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
@@ -7,7 +9,7 @@ export const calculateMonthDiff = (startDate: Date, endDate: Date) => {
 };
 
 export const formatDate = (
-  i18n: any
+  i18n: i18n
 ) => (
   date: Date,
   options: Intl.DateTimeFormatOptions
