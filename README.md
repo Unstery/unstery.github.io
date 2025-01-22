@@ -2,7 +2,7 @@
 
 Welcome to my Astro-themed portfolio website! This project was developed using React to showcase my professional background, including a brief introduction, links to my LinkedIn profile, email address, and CV. I also provide details about my experiences, projects, and educational background.
 
-You can access the live website here: [My Portfolio](https://unstery.github.io/portfolio)
+You can access the live website here: [My Portfolio](https://unstery.github.io)
 
 ## ✨ Features
 - Brief self-introduction
@@ -67,7 +67,7 @@ All commands are run from the root of the project, from a terminal:
 | Command                   | Action                                                     |
 | :------------------------ | :--------------------------------------------------------- |
 | `npm install`             | Installs dependencies                                      |
-| `npm run dev`             | Starts local dev server at `localhost:4321/portfolio`      |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`                    |
 | `npm run preview`         | Preview your build locally, before deploying               |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check`           |
@@ -75,4 +75,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🚀 Deployment
 
-The website is automatically built and deployed using GitHub Actions. The deployed version is available at [https://unstery.github.io/portfolio](https://unstery.github.io/portfolio).
+The website is automatically built and deployed using GitHub Actions. The deployed version is available at [https://unstery.github.io](https://unstery.github.io).
