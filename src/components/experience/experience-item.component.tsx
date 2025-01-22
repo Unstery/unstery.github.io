@@ -31,7 +31,7 @@ export const ExperienceItem = ({ entity }: ExperienceItemProps) => {
   return (
     <div className="p-4 flex flex-col gap-4 rounded-2xl bg-background-300 dark:bg-background-600">
       <div className="flex flex-row gap-3 items-center">
-        <img src={`/portfolio/experience/${entity.image}`} alt={entity.image} className="h-28 rounded-2xl" />
+        <img src={`/experience/${entity.image}`} alt={entity.image} className="h-28 rounded-2xl" />
         <div>
           <h3 className="text-xl font-bold">{entity.title}</h3>
           <p className="text-primary-200 font-semibold">{entity.company}</p>

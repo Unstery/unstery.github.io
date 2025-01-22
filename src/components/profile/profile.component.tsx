@@ -8,8 +8,8 @@ interface ProfileProps {
   categoriesRef: React.MutableRefObject<HTMLElement[]>
 }
 
-const CV_FR = '/portfolio/cv/Bastien_Faisant_CV.pdf';
-const CV_EN = '/portfolio/cv/Bastien_Faisant_english_CV.pdf';
+const CV_FR = '/cv/Bastien_Faisant_CV.pdf';
+const CV_EN = '/cv/Bastien_Faisant_english_CV.pdf';
 
 export const Profile = ({ categoriesRef }: ProfileProps) => {
   const { t, i18n } = useTranslation();
@@ -65,7 +65,7 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
           </a>
         </div>
       </div>
-      <img src="/portfolio/profile/pp.jpg" alt="profile" className="rounded-full object-cover max-h-[33%] max-w-[75%] md:max-h-[75%] md:max-w-[33%]" />
+      <img src="/profile/pp.jpg" alt="profile" className="rounded-full object-cover max-h-[33%] max-w-[75%] md:max-h-[75%] md:max-w-[33%]" />
     </section>
 
   );
