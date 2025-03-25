@@ -1,11 +1,15 @@
 import type { i18n } from 'i18next';
 
-export const calculateMonthDiff = (startDate: Date, endDate: Date) => {
-  let months;
-  months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
-  months -= startDate.getMonth();
-  months += endDate.getMonth();
-  return months <= 0 ? 0 : months;
+export const calculateMonthDiff = (startDateString: Date, endDateString: Date) => {
+  const startDate = new Date(startDateString);
+  const endDate = new Date(endDateString);
+  const yearDiff = endDate.getFullYear() - startDate.getFullYear();
+  const monthDiff = endDate.getMonth() - startDate.getMonth();
+  const totalMonths = yearDiff * 12 + monthDiff;
+
+  // Rounded to the nearest month
+  const dayDiff = endDate.getDate() - startDate.getDate();
+  return dayDiff >= 15 ? totalMonths + 1 : totalMonths;
 };
 
 export const formatDate = (

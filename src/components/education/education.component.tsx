@@ -1,8 +1,10 @@
-import { usePortfolio } from '../../modules/portfolio';
-import { EducationItem } from './education-item.component';
+import { RefObject } from "react";
+
+import { usePortfolio } from "../../modules/portfolio";
+import { EducationItem } from "./education-item.component";
 
 interface EducationProps {
-  categoriesRef: React.MutableRefObject<HTMLElement[]>
+  categoriesRef: RefObject<HTMLElement[]>;
 }
 
 export const Education = ({ categoriesRef }: EducationProps) => {
@@ -13,8 +15,12 @@ export const Education = ({ categoriesRef }: EducationProps) => {
   return (
     <section
       className="w-full flex flex-col gap-3"
-      ref={(element) => categoriesRef.current.push(element!)}
-      id={education.title}
+      ref={(element) => {
+        if (element && !categoriesRef.current.includes(element)) {
+          categoriesRef.current.push(element);
+        }
+      }}
+      id={education.type}
     >
       <h2 className="text-primary-200 text-2xl font-bold">{education.title}</h2>
       <div className="flex flex-col gap-4">
@@ -23,6 +29,5 @@ export const Education = ({ categoriesRef }: EducationProps) => {
         ))}
       </div>
     </section>
-
   );
 };

@@ -1,15 +1,15 @@
-import { useTranslation } from 'react-i18next';
-import { Fragment, useEffect, useState } from 'react';
+import { useTranslation } from "react-i18next";
+import { Fragment, RefObject, useEffect, useState } from "react";
 
-import { usePortfolio } from '../../modules/portfolio';
-import { LanguagesEnum } from '../../enums/languages.enum';
+import { usePortfolio } from "../../modules/portfolio";
+import { LanguagesEnum } from "../../enums/languages.enum";
 
 interface ProfileProps {
-  categoriesRef: React.MutableRefObject<HTMLElement[]>
+  categoriesRef: RefObject<HTMLElement[]>;
 }
 
-const CV_FR = '/cv/Bastien_Faisant_CV.pdf';
-const CV_EN = '/cv/Bastien_Faisant_english_CV.pdf';
+const CV_FR = "/cv/Bastien_Faisant_CV.pdf";
+const CV_EN = "/cv/Bastien_Faisant_english_CV.pdf";
 
 export const Profile = ({ categoriesRef }: ProfileProps) => {
   const { t, i18n } = useTranslation();
@@ -33,22 +33,30 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
 
   return (
     <section
-      ref={(element) => categoriesRef.current.push(element!)}
-      id={profile.title}
+      ref={(element) => {
+        if (element && !categoriesRef.current.includes(element)) {
+          categoriesRef.current.push(element);
+        }
+      }}
+      id={profile.type}
       className="h-[calc(100vh-80px)] w-full p-4 flex flex-col-reverse md:flex-row justify-evenly gap-4 items-center"
     >
       <div className="flex flex-col justify-center items-center gap-16">
         <div className="flex flex-col gap-4 text-2xl sm:text-3xl md:text-3xl lg:text-5xl xl:text-5xl">
           <span>{`${profile.welcome} ${profile.firstName} ${profile.lastName}`}</span>
           <span className="text-primary-200">{profile.status}</span>
-          <span className="text-base sm:text-lg md:text-lg lg:text-2xl">{profile.formation}</span>
+          <span className="text-base sm:text-lg md:text-lg lg:text-2xl">
+            {profile.formation}
+          </span>
         </div>
 
         <div className="flex flex-row gap-4 fill-primary-200 items-center">
           {profile.tags.map((tag, index) => (
             <Fragment key={tag}>
               <span className="">{tag}</span>
-              {index < profile.tags.length - 1 && <span className="w-2 h-2 rounded-full bg-primary-200" />}
+              {index < profile.tags.length - 1 && (
+                <span className="w-2 h-2 rounded-full bg-primary-200" />
+              )}
             </Fragment>
           ))}
         </div>
@@ -56,17 +64,20 @@ export const Profile = ({ categoriesRef }: ProfileProps) => {
         <div className="h-12 flex flex-row justify-center items-center gap-6">
           <a
             href={cvPdf}
-          // download={`cv_${i18n.language}_bastien_faisant`} // Directly download the PDF file
+            // download={`cv_${i18n.language}_bastien_faisant`} // Directly download the PDF file
             target="_blank" // Open the PDF file in another tab
             className="h-full flex justify-center items-center text-center p-3 rounded-2xl bg-primary-200 dark:bg-primary-200 text-text-200 dark:text-text-200 font-bold"
             rel="noreferrer"
           >
-            {t('downloadResume')}
+            {t("downloadResume")}
           </a>
         </div>
       </div>
-      <img src="/profile/pp.jpg" alt="profile" className="rounded-full object-cover max-h-[33%] max-w-[75%] md:max-h-[75%] md:max-w-[33%]" />
+      <img
+        src="/profile/pp.jpg"
+        alt="profile"
+        className="rounded-full object-cover max-h-[33%] max-w-[75%] md:max-h-[75%] md:max-w-[33%]"
+      />
     </section>
-
   );
 };
