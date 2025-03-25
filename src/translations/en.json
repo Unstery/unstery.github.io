@@ -2,5 +2,8 @@
     "title": "Portfolio",
     "month_one": "{{count}} month",
     "month_other": "{{count}} months",
-    "downloadResume": "Download my resume"
+    "downloadResume": "Download my resume",
+    "tasks": "Tasks:",
+    "teams": "Teams:",
+    "methods": "Methods:"
 }

@@ -11,7 +11,10 @@
             "welcome": "Hi, I am",
             "status": "IT Engineer",
             "formation": "Graduated from the Rennes Graduate School of Engineering (ESIR)",
-            "tags": ["Web & Mobile Development", "DevOps"],
+            "tags": [
+                "Web & Mobile Development",
+                "DevOps"
+            ],
             "description": "Computer engineer graduated from ESIR, in Rennes, I am looking for a permanent contract as a Full Stack developer from September 2024. Passionate about web and software development, I am ready to bring my skills and my dynamism to a innovative team."
         },
         {
@@ -21,41 +24,93 @@
             "entities": [
                 {
                     "id": "2",
-                    "title": "Full Stack Web developer (Internship)",
+                    "title": "Full Stack Web developer",
                     "company": "ASI",
                     "location": "Cesson-Sévigné, Brittany, France",
+                    "contract": "Internship",
                     "startDate": "2024-03-05",
                     "endDate": "2024-08-30",
-                    "description": "Recruitment management web application in Angular, API in NodeJS with the NestJS framework and database hosted in PostgreSQL.",
+                    "description": "Frontend web application in Angular, API in Node.js with the NestJS framework and database hosted in PostgreSQL.",
                     "image": "asi.jpg",
                     "skills": [
-                        "TypeScript", "Angular", "Material", "I18n", "ESLint", "Node.js", "NestJS", "PostgreSQL"
+                        "TypeScript",
+                        "Angular",
+                        "Material",
+                        "I18n",
+                        "ESLint",
+                        "Node.js",
+                        "NestJS",
+                        "PostgreSQL"
+                    ],
+                    "project": "Recruitment management web application",
+                    "detail": "This internship at the Rennes-based agency ASI aimed at developing a web application for recruitment management, designed for the recruitment team to centralize and facilitate candidate tracking.\nAt the end of my internship, the first version of the solution was deployed on the company's server. This solution enables the management of applications, tracking of ongoing recruitment processes, and visualization of statistics to assess process efficiency.\nThe application simplifies the daily work of recruitment teams, who previously had to use and coordinate multiple tools, leading to time loss in managing and sharing KPIs. Now, all information is centralized and easily exportable, optimizing their efficiency.\nThis experience deepened my technical skills, particularly in application security and deployment. I also gained awareness of best development practices throughout my internship.",
+                    "team": "2 developers, 1 product owner",
+                    "method": "Kanban methodology",
+                    "tasks": [
+                        "Displaying recruitment process statistics (Backend in NestJS, Frontend in Angular)",
+                        "Managing candidates, job offers, and applications (Backend in NestJS, Frontend in Angular)",
+                        "Authentication and authorization via Microsoft account (OIDC, OAuth 2.0 authorization protocol)",
+                        "Application deployment (Nginx, Docker, Docker Compose, GitLab CI)"
                     ]
                 },
                 {
                     "id": "1",
-                    "title": "Frontend Web developer (Internship)",
+                    "title": "Frontend Web developer",
                     "company": "FLYX Cloud",
                     "location": "Oudergem, Brussels Region, Belgium",
+                    "contract": "Internship",
                     "startDate": "2023-06-05",
                     "endDate": "2023-09-15",
-                    "description": "The aim of my internship with Flyx Cloud was to develop a frontend solution for a white-label order management web application for retail companies.\nAt the end of my internship, the proposed product presents the overall flow of an order management system, from the display of the store menu to the online payment of the basket.",
+                    "description": "Front-end web application in React with the Next.js framework. Interaction with the backend developed in .NET.",
                     "image": "flyx_cloud.jpg",
                     "skills": [
-                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
+                        "TypeScript",
+                        "React",
+                        "Next.js",
+                        "Styled-components",
+                        "I18n",
+                        "React Hooks",
+                        "React Query",
+                        "ESLint",
+                        "React Hook Form"
+                    ],
+                    "project": "White-label web-based order management solution",
+                    "detail": "This internship at Flyx Cloud aimed to develop the frontend solution of a white-label web application for order management, designed for retail businesses.\nAt the end of my internship, the proposed product covered the entire flow of an order management system, from displaying the store menu to online payment of the shopping cart.",
+                    "team": "1 developer",
+                    "method": "Kanban methodology",
+                    "tasks": [
+                        "Displaying a store's menu by scanning a QR Code (React)",
+                        "Ordering products for table service (React)",
+                        "Optional account login to earn points (Email, Apple, Facebook, Google)",
+                        "Online payment of the shopping cart (Mollie)"
                     ]
                 },
                 {
                     "id": "0",
-                    "title": "Full Stack Web developer (Internship)",
+                    "title": "Full Stack Web developer",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Brittany, France",
+                    "contract": "Internship",
                     "startDate": "2022-06-06",
                     "endDate": "2022-08-05",
-                    "description": "",
+                    "description": "Frontend web application in Flutter/Dart, API in Node.js with the NestJS framework and database hosted in MongoDB.",
                     "image": "wijin.jpg",
                     "skills": [
-                        "TypeScript", "Node.js", "NestJS", "Dart", "MongoDB"
+                        "TypeScript",
+                        "Node.js",
+                        "NestJS",
+                        "Dart",
+                        "MongoDB"
+                    ],
+                    "project": "Web application for managing training schedules",
+                    "detail": "This internship at Wijin aimed to address an internal company need by developing a web application for managing training schedules.\nAt the end of my internship, the product successfully fulfilled its mission of providing a deployable application while adhering to the expected workflow and the company's health and safety measures.",
+                    "team": "3 developers, 1 product owner, 1 scrum master",
+                    "method": "Scrum methodology",
+                    "tasks": [
+                        "Designing the solution architecture (Flutter, NestJS)",
+                        "Developing technical features (Flutter, NestJS)",
+                        "Authentication via a corporate Microsoft account",
+                        "Conducting biweekly demonstrations"
                     ]
                 }
             ]
@@ -72,7 +127,13 @@
                     "endDate": "2024-01-01",
                     "description": "Modelling and implementation of the domain with Ecore. Creation of the grammar with Langium (in TypeScript). Development of an interpreter for a Web simulator and a compiler for Arduino code.",
                     "skills": [
-                        "Eclipse Modeling Framework", "Ecore", "Xtext", "TypeScript", "Langium", "Language Server Protocol (LSP)", "Arduino"
+                        "Eclipse Modeling Framework",
+                        "Ecore",
+                        "Xtext",
+                        "TypeScript",
+                        "Langium",
+                        "Language Server Protocol (LSP)",
+                        "Arduino"
                     ]
                 },
                 {
@@ -82,7 +143,12 @@
                     "endDate": "2024-01-01",
                     "description": "Analysis of the protocol and creation of a Client-Server implementation using the Eclipse Leshan Java library. Backend in Java Spring Boot and web interface in Vue.js.",
                     "skills": [
-                        "Java", "Spring", "Spring Boot", "Eclipse Leshan", "Vue.js", "Docker"
+                        "Java",
+                        "Spring",
+                        "Spring Boot",
+                        "Eclipse Leshan",
+                        "Vue.js",
+                        "Docker"
                     ]
                 },
                 {
@@ -92,7 +158,10 @@
                     "endDate": "2024-01-01",
                     "description": "Server developed using the Spring framework and Spring Remoting RMI technology.",
                     "skills": [
-                        "Java", "Spring", "Spring Remoting", "Java RMI"
+                        "Java",
+                        "Spring",
+                        "Spring Remoting",
+                        "Java RMI"
                     ]
                 },
                 {
@@ -102,7 +171,12 @@
                     "endDate": "2023-01-01",
                     "description": "Training of a model on a data set, developed in Python with the TensorFlow and PyTorch machine learning libraries and fine-tuned with a model of pre-trained transformers from the Hugging Face Transformers library.",
                     "skills": [
-                        "Python", "TensorFlow", "PyTorch", "Hugging Face Transformers", "Pandas", "Numpy"
+                        "Python",
+                        "TensorFlow",
+                        "PyTorch",
+                        "Hugging Face Transformers",
+                        "Pandas",
+                        "Numpy"
                     ]
                 },
                 {
@@ -112,7 +186,15 @@
                     "endDate": "2023-01-01",
                     "description": "Front-end web application in React with the Next.js framework. Interaction with the backend developed in .NET.",
                     "skills": [
-                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
+                        "TypeScript",
+                        "React",
+                        "Next.js",
+                        "Styled-components",
+                        "I18n",
+                        "React Hooks",
+                        "React Query",
+                        "ESLint",
+                        "React Hook Form"
                     ]
                 },
                 {
@@ -122,7 +204,11 @@
                     "endDate": "2023-01-01",
                     "description": "Data retrieval via web scraping (BeautifulSoup and Selenium WebDriver) and Pandas and Numpy for processing.",
                     "skills": [
-                        "Python", "BeautifulSoup", "Selenium WebDriver", "Pandas", "Numpy"
+                        "Python",
+                        "BeautifulSoup",
+                        "Selenium WebDriver",
+                        "Pandas",
+                        "Numpy"
                     ]
                 },
                 {
@@ -132,7 +218,8 @@
                     "endDate": "2023-01-01",
                     "description": "Flutter application for single and multiplayer challenges over Wi-Fi P2P.",
                     "skills": [
-                        "Flutter", "Dart"
+                        "Flutter",
+                        "Dart"
                     ]
                 },
                 {
@@ -142,7 +229,12 @@
                     "endDate": "2023-01-01",
                     "description": "Architecture using NestJS, MySQL, Angular, Quarkus, RabbitMQ and Nginx.",
                     "skills": [
-                        "NestJS", "MySQL", "Angular", "Quarkus", "RabbitMQ", "Nginx"
+                        "NestJS",
+                        "MySQL",
+                        "Angular",
+                        "Quarkus",
+                        "RabbitMQ",
+                        "Nginx"
                     ]
                 },
                 {
@@ -152,7 +244,9 @@
                     "endDate": "2023-01-01",
                     "description": "Compiler using ANTLR and Java to create a grammar lexer and parser, three-address code and runtime library for C++.",
                     "skills": [
-                        "ANTLR", "Java", "C++"
+                        "ANTLR",
+                        "Java",
+                        "C++"
                     ]
                 },
                 {
@@ -160,9 +254,13 @@
                     "title": "Flutter web application for managing training schedules",
                     "startDate": "2022-01-01",
                     "endDate": "2022-01-01",
-                    "description": "Frontend web application in Flutter/Dart, API in NodeJS with the NestJS framework and database hosted in MongoDB.",
+                    "description": "Frontend web application in Flutter/Dart, API in Node.js with the NestJS framework and database hosted in MongoDB.",
                     "skills": [
-                        "Flutter", "Dart", "NodeJS", "NestJS", "MongoDB"
+                        "Flutter",
+                        "Dart",
+                        "Node.js",
+                        "NestJS",
+                        "MongoDB"
                     ]
                 },
                 {
@@ -172,7 +270,9 @@
                     "endDate": "2021-01-01",
                     "description": "Android development in Java/XML with Android Studio and Visual Studio Code tools. Hosting of our database in Firebase.",
                     "skills": [
-                        "Java", "XML", "Firebase"
+                        "Java",
+                        "XML",
+                        "Firebase"
                     ]
                 }
             ]
@@ -185,7 +285,7 @@
                 {
                     "id": "2",
                     "school": "ESIR - Rennes Graduate School of Engineering",
-                    "degree": "Fifth-year student in a Master's program",
+                    "degree": "ESIR engineering degree",
                     "speciality": "Computer science",
                     "startDate": "2021-09-01",
                     "endDate": "2024-07-05",
@@ -209,7 +309,7 @@
                     "endDate": "2019-07-05",
                     "image": "jean_guehenno.jpg"
                 }
-            ]  
+            ]
         }
     ]
 }

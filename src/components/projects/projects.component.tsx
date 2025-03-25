@@ -1,8 +1,10 @@
-import { usePortfolio } from '../../modules/portfolio';
-import { ProjectItem } from './project-item.component';
+import { RefObject } from "react";
+
+import { usePortfolio } from "../../modules/portfolio";
+import { ProjectItem } from "./project-item.component";
 
 interface ProjectsProps {
-  categoriesRef: React.MutableRefObject<HTMLElement[]>
+  categoriesRef: RefObject<HTMLElement[]>;
 }
 
 export const Projects = ({ categoriesRef }: ProjectsProps) => {
@@ -13,8 +15,12 @@ export const Projects = ({ categoriesRef }: ProjectsProps) => {
   return (
     <div
       className="w-full flex flex-col gap-3"
-      ref={(element) => categoriesRef.current.push(element!)}
-      id={projects.title}
+      ref={(element) => {
+        if (element && !categoriesRef.current.includes(element)) {
+          categoriesRef.current.push(element);
+        }
+      }}
+      id={projects.type}
     >
       <h2 className="text-primary-200 text-2xl font-bold">{projects.title}</h2>
       <div className="flex flex-col gap-4">
