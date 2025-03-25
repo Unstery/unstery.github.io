@@ -1,25 +1,50 @@
-import { useRef, useState } from 'react';
+import { useEffect, RefObject } from "react";
 
-import { Navbar } from './navbar';
-import { usePortfolio } from '../modules/portfolio';
-import { Body } from './body.component';
+import { Education } from "./education";
+import { Experience } from "./experience";
+import { Profile } from "./profile";
+import { Projects } from "./projects";
 
-export const PortfolioPage = () => {
-  const { findProfile } = usePortfolio();
-  const profile = findProfile();
+interface PortfolioPageProps {
+  categoriesRef: RefObject<HTMLElement[]>;
+  setActiveCategory: (activeCategory: string | undefined) => void;
+}
 
-  const categoriesRef = useRef<HTMLElement[]>([]);
+export const PortfolioPage = ({
+  categoriesRef,
+  setActiveCategory,
+}: PortfolioPageProps) => {
+  useEffect(() => {
+    const activeCategories = new Map<string, boolean>();
+    categoriesRef.current.forEach((categoryRef) => {
+      activeCategories.set(categoryRef.id, false);
+    });
 
-  const [activeCategory, setActiveCategory] = useState<string | undefined>(profile.title);
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      activeCategories.set(entry.target.id, entry.isIntersecting);
+
+      const activeCategory = Array.from(activeCategories.entries())
+        .reverse()
+        .find(([, value]) => !!value)?.[0];
+
+      setActiveCategory(activeCategory);
+      window.history.replaceState(null, "", `/#${activeCategory}`);
+    });
+
+    categoriesRef.current.forEach((categoryRef) => {
+      observer.observe(categoryRef);
+    });
+  }, [setActiveCategory]);
 
   return (
-    <div>
-      <Navbar
-        categoriesRef={categoriesRef}
-        activeCategory={activeCategory}
-        setActiveCategory={setActiveCategory}
-      />
-      <Body categoriesRef={categoriesRef} setActiveCategory={setActiveCategory} />
+    <div className="px-5 mx-auto mb-5 flex flex-col gap-5 justify-center items-center">
+      <Profile categoriesRef={categoriesRef} />
+      <div className="px-5 mx-auto max-w-screen-lg flex flex-col gap-5 justify-center items-center">
+        <Experience categoriesRef={categoriesRef} />
+        <Projects categoriesRef={categoriesRef} />
+        <Education categoriesRef={categoriesRef} />
+      </div>
     </div>
   );
 };

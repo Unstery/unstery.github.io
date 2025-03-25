@@ -1,26 +1,25 @@
 ---
-import Layout from '../layouts/layout.astro';
-import { App } from '../components/app';
-
-import i18n, { i18nInit } from '../translations/i18n';
-import en from '../translations/en.json';
-import fr from '../translations/fr.json';
+import Layout from "../layouts/layout.astro";
+import { App } from "../components/app";
+import i18n, { i18nInit } from "../translations/i18n";
+import en from "../translations/en.json";
+import fr from "../translations/fr.json";
+import { CategoryEnum } from "../api/enum/category.enum";
 
 const resources = {
   en: {
-    translation: en
+    translation: en,
   },
   fr: {
-    translation: fr
-  }
+    translation: fr,
+  },
 };
 
 i18nInit({ resources });
 ---
 
 <div>
-  <Layout title={i18n.t('title')}>
-    <App client:load/>
+  <Layout title={i18n.t("title")}>
+    <App category={CategoryEnum.PROFILE} client:load />
   </Layout>
 </div>
-

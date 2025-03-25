@@ -1,8 +1,10 @@
-import { usePortfolio } from '../../modules/portfolio';
-import { ExperienceItem } from './experience-item.component';
+import { RefObject } from "react";
+
+import { usePortfolio } from "../../modules/portfolio";
+import { ExperienceItem } from "./experience-item.component";
 
 interface ExperienceProps {
-  categoriesRef: React.MutableRefObject<HTMLElement[]>
+  categoriesRef: RefObject<HTMLElement[]>;
 }
 
 export const Experience = ({ categoriesRef }: ExperienceProps) => {
@@ -13,16 +15,21 @@ export const Experience = ({ categoriesRef }: ExperienceProps) => {
   return (
     <section
       className="w-full flex flex-col gap-3"
-      ref={(element) => categoriesRef.current.push(element!)}
-      id={experience.title}
+      ref={(element) => {
+        if (element && !categoriesRef.current.includes(element)) {
+          categoriesRef.current.push(element);
+        }
+      }}
+      id={experience.type}
     >
-      <h2 className="text-primary-200 text-2xl font-bold">{experience.title}</h2>
+      <h2 className="text-primary-200 text-2xl font-bold">
+        {experience.title}
+      </h2>
       <div className="flex flex-col gap-4">
         {experience.entities.map((entity) => (
           <ExperienceItem key={entity.company} entity={entity} />
         ))}
       </div>
     </section>
-
   );
 };

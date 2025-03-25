@@ -2,5 +2,8 @@
     "title": "Portfolio",
     "month_one": "{{count}} mois",
     "month_other": "{{count}} mois",
-    "downloadResume": "Télécharger mon CV"
+    "downloadResume": "Télécharger mon CV",
+    "tasks": "Tâches :",
+    "teams": "Équipes :",
+    "methods": "Méthodes :"
 }

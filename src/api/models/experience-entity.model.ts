@@ -3,9 +3,15 @@ export interface ExperienceEntity {
   title: string,
   company: string,
   location: string,
+  contract: string,
   startDate: Date,
   endDate: Date,
   description: string,
   image: string,
-  skills: string[]
+  skills: string[],
+  project: string,
+  detail: string,
+  team: string,
+  method: string,
+  tasks: string[],
 }

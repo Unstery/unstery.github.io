@@ -5,6 +5,7 @@ import {
   findCategories,
   findEducation,
   findExperience,
+  findExperienceById,
   findProfile,
   findProjects
 } from '../utils/portfolio.utils';
@@ -17,6 +18,7 @@ export const usePortfolio = () => {
     findCategories: findCategories(portfolioRoot),
     findEducation: findEducation(portfolioRoot),
     findExperience: findExperience(portfolioRoot),
+    findExperienceById: findExperienceById(portfolioRoot),
     findProjects: findProjects(portfolioRoot),
   };
 };

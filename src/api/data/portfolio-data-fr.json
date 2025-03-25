@@ -11,7 +11,10 @@
             "welcome": "Bonjour, je suis",
             "status": "Ingénieur en informatique",
             "formation": "Diplomé de l'École Supérieure d'Ingénieurs de Rennes (ESIR)",
-            "tags": ["Développement Web & Mobile", "DevOps"],
+            "tags": [
+                "Développement Web & Mobile",
+                "DevOps"
+            ],
             "description": "Bonjour, je suis Bastien Faisant, ingénieur en informatique diplômé de l'École Supérieure d'Ingénieurs de Rennes (ESIR).\nPassionné par le développement web et logiciel, je me spécialise dans les technologies Full Stack, avec une expertise en Java et JavaScript. Curieux et rigoureux, je suis toujours prêt à relever de nouveaux défis et à m'adapter rapidement à différents environnements de travail.\nMon dynamisme, ma capacité d'adaptation, et mon sens de l'organisation me permettent de m'intégrer efficacement au sein d'équipes innovantes pour développer des solutions performantes et pérennes."
         },
         {
@@ -21,41 +24,93 @@
             "entities": [
                 {
                     "id": "2",
-                    "title": "Développeur web Full Stack (Stage)",
+                    "title": "Développeur web Full Stack",
                     "company": "ASI",
                     "location": "Cesson-Sévigné, Bretagne, France",
+                    "contract": "Stage",
                     "startDate": "2024-03-05",
                     "endDate": "2024-08-30",
-                    "description": "Application web de gestion des recrutements\nFrontend en Angular, API en NodeJS avec le framework NestJS et base de données hébergée sous PostgreSQL.",
+                    "description": "Frontend en Angular, API en Node.js avec le framework NestJS et base de données hébergée sous PostgreSQL.",
                     "image": "asi.jpg",
                     "skills": [
-                        "TypeScript", "Angular", "Material", "I18n", "ESLint", "Node.js", "NestJS", "PostgreSQL"
+                        "TypeScript",
+                        "Angular",
+                        "Material",
+                        "I18n",
+                        "ESLint",
+                        "Node.js",
+                        "NestJS",
+                        "PostgreSQL"
+                    ],
+                    "project": "Application web de gestion des recrutements",
+                    "detail": "Ce stage au sein de l'agence rennaise ASI avait pour objectif le développement d'une application web de gestion des recrutements, destinée à l'équipe de recrutement pour centraliser et faciliter le suivi des candidats.\nA la fin de mon stage, la première version de la solution a été déployée sur le serveur de l'entreprise. Cette solution permet de gérer les candidatures, de suivre le flux des recrutements en cours et de visualiser les statistiques pour évaluer l'efficacité du processus.\nL'application vise à simplifier le quotidien des équipes de recrutement, qui devaient auparavant utiliser et coordonner plusieurs outils, entraînant une perte de temps dans la gestion et le partage de KPI. Désormais, toutes les informations sont centralisées et facilement exportables, optimisant ainsi leur efficacité.\nCette expérience a approfondi mes compétences techniques, notamment sur la sécurisation et sur la livraison de l'application. J'ai pu également être sensibilisé aux bonnes pratiques de développement tout au long de mon stage.",
+                    "team": "2 développeurs, 1 product owner",
+                    "method": "Méthode Kanban",
+                    "tasks": [
+                        "Affichage de statistiques sur le processus de recrutement (Back en NestJS, Front en Angular)",
+                        "Gestion des candidats, offres et candidatures (Back en NestJS, Front en Angular)",
+                        "Authentification et autorisation via le compte Microsoft (OIDC, protocole d'autorisation OAuth 2.0)",
+                        "Déploiement de l'application (Nginx, Docker, Docker compose, GitLab CI)"
                     ]
                 },
                 {
                     "id": "1",
-                    "title": "Développeur web Frontend (Stage)",
+                    "title": "Développeur web Frontend",
                     "company": "FLYX Cloud",
                     "location": "Auderghem, Bruxelles-Capitale, Belgique",
+                    "contract": "Stage",
                     "startDate": "2023-06-05",
                     "endDate": "2023-09-15",
-                    "description": "Ce stage au sein de Flyx Cloud avait pour objectif de développer une solution frontend d'une application web de gestion des commandes en marque blanche destinée aux entreprises de vente au détail.\nA la fin de mon stage, le produit proposé présente le flux global d'un système de gestion de commande, de l'affichage du menu du magasin jusqu'au paiement en ligne du panier.",
+                    "description": "Application web frontend en React avec le framework Next.js. Interaction avec le backend développé en .NET.",
                     "image": "flyx_cloud.jpg",
                     "skills": [
-                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
+                        "TypeScript",
+                        "React",
+                        "Next.js",
+                        "Styled-components",
+                        "I18n",
+                        "React Hooks",
+                        "React Query",
+                        "ESLint",
+                        "React Hook Form"
+                    ],
+                    "project": "Solution web de gestion des commandes en white-label",
+                    "detail": "Ce stage au sein de Flyx Cloud avait pour objectif de développer une solution frontend d'une application web de gestion des commandes en marque blanche destinée aux entreprises de vente au détail.\nA la fin de mon stage, le produit proposé présente le flux global d'un système de gestion de commande, de l'affichage du menu du magasin jusqu'au paiement en ligne du panier.",
+                    "team": "1 développeur",
+                    "method": "Méthode Kanban",
+                    "tasks": [
+                        "Affichage du menu d'un magasin spécifique en scannant un QR Code (React)",
+                        "Commande de produits en service à table (React)",
+                        "Connexion facultative à son compte pour gagner des points (Mail, Apple, Facebook, Google)",
+                        "Paiement en ligne du panier (Mollie)"
                     ]
                 },
                 {
                     "id": "0",
-                    "title": "Développeur web Full Stack (Stage)",
+                    "title": "Développeur web Full Stack",
                     "company": "Wijin",
                     "location": "Cesson-Sévigné, Bretagne, France",
+                    "contract": "Stage",
                     "startDate": "2022-06-06",
                     "endDate": "2022-08-05",
-                    "description": "",
+                    "description": "Frontend en Flutter/Dart, API en Node.js avec le framework NestJS et base de données hébergée sous MongoDB.",
                     "image": "wijin.jpg",
                     "skills": [
-                        "TypeScript", "Node.js", "NestJS", "Dart", "MongoDB"
+                        "TypeScript",
+                        "Node.js",
+                        "NestJS",
+                        "Dart",
+                        "MongoDB"
+                    ],
+                    "project": "Application web de gestion des plannings de formation",
+                    "detail": "Ce stage au sein de Wijin avait pour objectif de répondre à un besoin interne à l'entreprise en développant une solution de gestion des plannings de formations sous forme d'application web.\nA la fin de mon stage, le produit a répondu à la mission d'avoir une application déployable tout en respectant la méthode de travail attendue ainsi que les mesures de santé sécurité de l'entreprise.",
+                    "team": "3 développeurs, 1 product owner, 1 scrum master",
+                    "method": "Méthode Scrum",
+                    "tasks": [
+                        "Conception de l'architecture de la solution (Flutter, NestJS)",
+                        "Développement des fonctionnalités techniques (Flutter, NestJS)",
+                        "Authentification via un compte Microsoft de l'entreprise",
+                        "Réalisation de démonstrations bihebdomadaires"
                     ]
                 }
             ]
@@ -72,7 +127,13 @@
                     "endDate": "2024-01-01",
                     "description": "Modélisation et implémentation du domaine avec Ecore. Création de la grammaire avec Langium (en TypeScript). Développement d'un interpréteur pour simulateur Web et d'un compilateur en code Arduino.",
                     "skills": [
-                        "Eclipse Modeling Framework", "Ecore", "Xtext", "TypeScript", "Langium", "Language Server Protocol (LSP)", "Arduino"
+                        "Eclipse Modeling Framework",
+                        "Ecore",
+                        "Xtext",
+                        "TypeScript",
+                        "Langium",
+                        "Language Server Protocol (LSP)",
+                        "Arduino"
                     ]
                 },
                 {
@@ -82,7 +143,12 @@
                     "endDate": "2024-01-01",
                     "description": "Analyse du protocole et Mise en place d'une implémentation Client-Serveur via l'utilisation de la bibliothèque Java Eclipse Leshan. Backend en Java Spring Boot et Interface web en Vue.js.",
                     "skills": [
-                        "Java", "Spring", "Spring Boot", "Eclipse Leshan", "Vue.js", "Docker"
+                        "Java",
+                        "Spring",
+                        "Spring Boot",
+                        "Eclipse Leshan",
+                        "Vue.js",
+                        "Docker"
                     ]
                 },
                 {
@@ -92,7 +158,10 @@
                     "endDate": "2024-01-01",
                     "description": "Serveur développé avec le framework Spring et la technologie Spring Remoting RMI.",
                     "skills": [
-                        "Java", "Spring", "Spring Remoting", "Java RMI"
+                        "Java",
+                        "Spring",
+                        "Spring Remoting",
+                        "Java RMI"
                     ]
                 },
                 {
@@ -102,7 +171,12 @@
                     "endDate": "2023-01-01",
                     "description": "Entrainement d'un modèle sur un ensemble de données, développé en Python avec les bibliothèques d'apprentissage machine TensorFlow et PyTorch et affiné (fine-tuned) avec un modèle de transformateurs pré-entraînés de la bibliothèque Hugging Face Transformers.",
                     "skills": [
-                        "Python", "TensorFlow", "PyTorch", "Hugging Face Transformers", "Pandas", "Numpy"
+                        "Python",
+                        "TensorFlow",
+                        "PyTorch",
+                        "Hugging Face Transformers",
+                        "Pandas",
+                        "Numpy"
                     ]
                 },
                 {
@@ -112,7 +186,15 @@
                     "endDate": "2023-01-01",
                     "description": "Application web frontend en React avec le framework Next.js. Interaction avec le backend développé en .NET.",
                     "skills": [
-                        "TypeScript", "React", "Next.js", "Styled-components", "I18n", "React Hooks", "React Query", "ESLint", "React Hook Form"
+                        "TypeScript",
+                        "React",
+                        "Next.js",
+                        "Styled-components",
+                        "I18n",
+                        "React Hooks",
+                        "React Query",
+                        "ESLint",
+                        "React Hook Form"
                     ]
                 },
                 {
@@ -122,7 +204,11 @@
                     "endDate": "2023-01-01",
                     "description": "Récupération des données via web scraping (BeautifulSoup et Selenium WebDriver) et Pandas et Numpy pour le traitement.",
                     "skills": [
-                        "Python", "BeautifulSoup", "Selenium WebDriver", "Pandas", "Numpy"
+                        "Python",
+                        "BeautifulSoup",
+                        "Selenium WebDriver",
+                        "Pandas",
+                        "Numpy"
                     ]
                 },
                 {
@@ -132,7 +218,8 @@
                     "endDate": "2023-01-01",
                     "description": "Application Flutter pour des défis solo et multijoueur en Wi-Fi Peer-to-Peer.",
                     "skills": [
-                        "Flutter", "Dart"
+                        "Flutter",
+                        "Dart"
                     ]
                 },
                 {
@@ -142,7 +229,12 @@
                     "endDate": "2023-01-01",
                     "description": "Architecture utilisant NestJS, MySQL, Angular, Quarkus, RabbitMQ et Nginx.",
                     "skills": [
-                        "NestJS", "MySQL", "Angular", "Quarkus", "RabbitMQ", "Nginx"
+                        "NestJS",
+                        "MySQL",
+                        "Angular",
+                        "Quarkus",
+                        "RabbitMQ",
+                        "Nginx"
                     ]
                 },
                 {
@@ -152,7 +244,9 @@
                     "endDate": "2023-01-01",
                     "description": "Compilateur utilisant ANTLR et Java pour créer un lexer et un parser de grammaire, un code 3 adresses et une bibliothèque d'exécution pour C++.",
                     "skills": [
-                        "ANTLR", "Java", "C++"
+                        "ANTLR",
+                        "Java",
+                        "C++"
                     ]
                 },
                 {
@@ -160,9 +254,13 @@
                     "title": "Application web Flutter de gestion des plannings de formation",
                     "startDate": "2022-01-01",
                     "endDate": "2022-01-01",
-                    "description": "Application web frontend en Flutter/Dart, API en NodeJS avec le framework NestJS et base de données hébergée sous MongoDB.",
+                    "description": "Application web frontend en Flutter/Dart, API en Node.js avec le framework NestJS et base de données hébergée sous MongoDB.",
                     "skills": [
-                        "Flutter", "Dart", "NodeJS", "NestJS", "MongoDB"
+                        "Flutter",
+                        "Dart",
+                        "Node.js",
+                        "NestJS",
+                        "MongoDB"
                     ]
                 },
                 {
@@ -172,7 +270,9 @@
                     "endDate": "2021-01-01",
                     "description": "Développement Android en Java/XML avec les outils Android Studio et Visual Studio Code. Hébergement de notre base de données sous Firebase.",
                     "skills": [
-                        "Java", "XML", "Firebase"
+                        "Java",
+                        "XML",
+                        "Firebase"
                     ]
                 }
             ]
@@ -185,7 +285,7 @@
                 {
                     "id": "2",
                     "school": "École Supérieure d'Ingénieurs de Rennes (ESIR)",
-                    "degree": "École d'Ingénieurs, cinquième année",
+                    "degree": "Diplôme d'ingénieur de l'ESIR",
                     "speciality": "Informatique",
                     "startDate": "2021-09-01",
                     "endDate": "2024-07-05",
@@ -209,7 +309,7 @@
                     "endDate": "2019-07-05",
                     "image": "jean_guehenno.jpg"
                 }
-            ]  
+            ]
         }
     ]
 }

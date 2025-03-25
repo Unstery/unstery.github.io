@@ -2,6 +2,7 @@ import { CategoryEnum } from '../../../api/enum/category.enum';
 import {
   Education,
   Experience,
+  ExperienceEntity,
   PortfolioRoot,
   Profile,
   Project
@@ -25,6 +26,12 @@ export const findExperience = (
   portfolioRoot: PortfolioRoot
 ) => () => portfolioRoot.categories
   .find((category) => category.type === CategoryEnum.EXPERIENCE) as Experience;
+
+export const findExperienceById = (
+  portfolioRoot: PortfolioRoot
+) => (experienceId: string) => portfolioRoot.categories
+  .find((category) => category.type === CategoryEnum.EXPERIENCE)
+  ?.entities.find((experienceEntity) => experienceEntity.id === experienceId) as ExperienceEntity;
 
 export const findProjects = (
   portfolioRoot: PortfolioRoot
