@@ -6,6 +6,6 @@ import vercel from '@astrojs/vercel';
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: 'https://unstery.github.io',
+  output: 'server',
   adapter: vercel(),
 });
