@@ -19,14 +19,6 @@ const resources = {
 i18nInit({ resources });
 
 const { experienceId } = Astro.params;
-
-export async function getStaticPaths() {
-  const experienceIds = ["0", "1", "2"];
-
-  return experienceIds.map((id) => ({
-    params: { experienceId: id },
-  }));
-}
 ---
 
 <div>
