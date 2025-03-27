@@ -2,7 +2,7 @@
 
 Welcome to my Astro-themed portfolio website! This project was developed using React to showcase my professional background, including a brief introduction, links to my LinkedIn profile, email address, and CV. I also provide details about my experiences, projects, and educational background.
 
-You can access the live website here: [My Portfolio](https://unstery.github.io)
+You can access the live website here: [My Portfolio](https://bastienfaisant.vercel.app)
 
 ## ✨ Features
 - Brief self-introduction
@@ -20,7 +20,7 @@ You can access the live website here: [My Portfolio](https://unstery.github.io)
 - React Query
 - ESLint
 - GitHub Actions (for building and deploying)
-- GitHub Pages (for hosting)
+- Vercel (for hosting)
 
 ## 📁 Project Structure
 
@@ -75,4 +75,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🚀 Deployment
 
-The website is automatically built and deployed using GitHub Actions. The deployed version is available at [https://unstery.github.io](https://unstery.github.io).
+The website is automatically built and deployed using GitHub Actions. The deployed version is available at [https://bastienfaisant.vercel.app](https://bastienfaisant.vercel.app).
